@@ -1,0 +1,1620 @@
+[
+  {
+    "shot": "A_office_and_reveal",
+    "samples": [
+      {
+        "frame": 0,
+        "draw_parameters": []
+      },
+      {
+        "frame": 222,
+        "draw_parameters": []
+      }
+    ]
+  },
+  {
+    "shot": "B1_oh",
+    "samples": [
+      {
+        "frame": 0,
+        "draw_parameters": [
+          {
+            "draw": "bulb",
+            "b": 1.0
+          },
+          {
+            "draw": "pm_full",
+            "beard": 0.0,
+            "grey": 0.0,
+            "beard_trail": 0,
+            "beard_wind": null
+          }
+        ]
+      },
+      {
+        "frame": 33,
+        "draw_parameters": [
+          {
+            "draw": "bulb",
+            "b": 1.0
+          },
+          {
+            "draw": "pm_full",
+            "beard": 0.0,
+            "grey": 0.0,
+            "beard_trail": 0,
+            "beard_wind": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "shot": "B2_off_he_goes",
+    "samples": [
+      {
+        "frame": 0,
+        "draw_parameters": [
+          {
+            "draw": "walker",
+            "b": 1.0,
+            "beard": 0.0,
+            "grey": 0.0,
+            "stack": 0,
+            "pack": 0,
+            "beard_trail": 0
+          },
+          {
+            "draw": "bulb",
+            "b": 1.0
+          },
+          {
+            "draw": "pm_full",
+            "beard": 0.0,
+            "grey": 0.0,
+            "beard_trail": 0,
+            "beard_wind": null
+          }
+        ]
+      },
+      {
+        "frame": 35,
+        "draw_parameters": [
+          {
+            "draw": "walker",
+            "b": 1.0,
+            "beard": 0.0,
+            "grey": 0.0,
+            "stack": 0,
+            "pack": 0,
+            "beard_trail": 0
+          },
+          {
+            "draw": "bulb",
+            "b": 1.0
+          },
+          {
+            "draw": "pm_full",
+            "beard": 0.0,
+            "grey": 0.0,
+            "beard_trail": 0,
+            "beard_wind": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "shot": "C1_arrival",
+    "samples": [
+      {
+        "frame": 6,
+        "draw_parameters": [
+          {
+            "draw": "walker",
+            "b": 1.0,
+            "beard": 0.0,
+            "grey": 0.0,
+            "stack": 0,
+            "pack": 0,
+            "beard_trail": 0
+          },
+          {
+            "draw": "bulb",
+            "b": 1.0
+          },
+          {
+            "draw": "pm_full",
+            "beard": 0.0,
+            "grey": 0.0,
+            "beard_trail": 0,
+            "beard_wind": null
+          }
+        ]
+      },
+      {
+        "frame": 30,
+        "draw_parameters": [
+          {
+            "draw": "stand",
+            "b": 1.0,
+            "beard": 0.0,
+            "grey": 0.0,
+            "stack": 0
+          },
+          {
+            "draw": "bulb",
+            "b": 1.0
+          },
+          {
+            "draw": "pm_full",
+            "beard": 0.0,
+            "grey": 0.0,
+            "beard_trail": 0,
+            "beard_wind": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "shot": "C2_the_pitch",
+    "samples": [
+      {
+        "frame": 0,
+        "draw_parameters": [
+          {
+            "draw": "stand",
+            "b": 1.0,
+            "beard": 0.0,
+            "grey": 0.0,
+            "stack": 0
+          },
+          {
+            "draw": "bulb",
+            "b": 1.0
+          },
+          {
+            "draw": "pm_full",
+            "beard": 0.0,
+            "grey": 0.0,
+            "beard_trail": 0,
+            "beard_wind": null
+          }
+        ]
+      },
+      {
+        "frame": 41,
+        "draw_parameters": [
+          {
+            "draw": "stand",
+            "b": 1.0,
+            "beard": 0.0,
+            "grey": 0.0,
+            "stack": 0
+          },
+          {
+            "draw": "bulb",
+            "b": 1.0
+          },
+          {
+            "draw": "pm_full",
+            "beard": 0.0,
+            "grey": 0.0,
+            "beard_trail": 0,
+            "beard_wind": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "shot": "C3_take_a_ticket",
+    "samples": [
+      {
+        "frame": 0,
+        "draw_parameters": [
+          {
+            "draw": "bulb",
+            "b": 1.0
+          },
+          {
+            "draw": "pm_full",
+            "beard": 0.0,
+            "grey": 0.0,
+            "beard_trail": 0,
+            "beard_wind": null
+          }
+        ]
+      },
+      {
+        "frame": 25,
+        "draw_parameters": [
+          {
+            "draw": "bulb",
+            "b": 1.0
+          },
+          {
+            "draw": "pm_full",
+            "beard": 0.0,
+            "grey": 0.0,
+            "beard_trail": 0,
+            "beard_wind": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "shot": "C4_ticket_087",
+    "samples": [
+      {
+        "frame": 0,
+        "draw_parameters": [
+          {
+            "draw": "bulb",
+            "b": 1.0
+          },
+          {
+            "draw": "pm_full",
+            "beard": 0.0,
+            "grey": 0.0,
+            "beard_trail": 0,
+            "beard_wind": null
+          }
+        ]
+      },
+      {
+        "frame": 40,
+        "draw_parameters": [
+          {
+            "draw": "bulb",
+            "b": 1.0
+          },
+          {
+            "draw": "pm_full",
+            "beard": 0.0,
+            "grey": 0.0,
+            "beard_trail": 0,
+            "beard_wind": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "shot": "C5_take_a_seat",
+    "samples": [
+      {
+        "frame": 0,
+        "draw_parameters": [
+          {
+            "draw": "seat",
+            "beard": 0.0,
+            "grey": 0.0,
+            "b": 1.0,
+            "pack": 0
+          },
+          {
+            "draw": "bulb",
+            "b": 1.0
+          },
+          {
+            "draw": "pm_full",
+            "beard": 0.0,
+            "grey": 0.0,
+            "beard_trail": 0,
+            "beard_wind": null
+          }
+        ]
+      },
+      {
+        "frame": 9,
+        "draw_parameters": [
+          {
+            "draw": "seat",
+            "beard": 0.0,
+            "grey": 0.0,
+            "b": 1.0,
+            "pack": 0
+          },
+          {
+            "draw": "bulb",
+            "b": 1.0
+          },
+          {
+            "draw": "pm_full",
+            "beard": 0.0,
+            "grey": 0.0,
+            "beard_trail": 0,
+            "beard_wind": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "shot": "C6_waiting",
+    "samples": [
+      {
+        "frame": 0,
+        "draw_parameters": [
+          {
+            "draw": "seat",
+            "beard": 0.0,
+            "grey": 0.0,
+            "b": 1.0,
+            "pack": 0
+          },
+          {
+            "draw": "bulb",
+            "b": 1.0
+          },
+          {
+            "draw": "pm_full",
+            "beard": 0.0,
+            "grey": 0.0,
+            "beard_trail": 0,
+            "beard_wind": null
+          }
+        ]
+      },
+      {
+        "frame": 45,
+        "draw_parameters": [
+          {
+            "draw": "seat",
+            "beard": 0.06,
+            "grey": 0.0,
+            "b": 0.9000514834523983,
+            "pack": 0
+          },
+          {
+            "draw": "bulb",
+            "b": 0.9000514834523983
+          },
+          {
+            "draw": "pm_full",
+            "beard": 0.06,
+            "grey": 0.0,
+            "beard_trail": 0,
+            "beard_wind": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "shot": "C7_087",
+    "samples": [
+      {
+        "frame": 0,
+        "draw_parameters": [
+          {
+            "draw": "seat",
+            "beard": 0.06,
+            "grey": 0.0,
+            "b": 0.9,
+            "pack": 0
+          },
+          {
+            "draw": "bulb",
+            "b": 0.9
+          },
+          {
+            "draw": "pm_full",
+            "beard": 0.06,
+            "grey": 0.0,
+            "beard_trail": 0,
+            "beard_wind": null
+          }
+        ]
+      },
+      {
+        "frame": 17,
+        "draw_parameters": [
+          {
+            "draw": "seat",
+            "beard": 0.06,
+            "grey": 0.0,
+            "b": 0.9,
+            "pack": 0
+          },
+          {
+            "draw": "bulb",
+            "b": 0.9
+          },
+          {
+            "draw": "pm_full",
+            "beard": 0.06,
+            "grey": 0.0,
+            "beard_trail": 0,
+            "beard_wind": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "shot": "C8_jolt",
+    "samples": [
+      {
+        "frame": 0,
+        "draw_parameters": [
+          {
+            "draw": "seat",
+            "beard": 0.07,
+            "grey": 0.0,
+            "b": 0.88,
+            "pack": 0
+          },
+          {
+            "draw": "bulb",
+            "b": 0.88
+          },
+          {
+            "draw": "pm_full",
+            "beard": 0.07,
+            "grey": 0.0,
+            "beard_trail": 0,
+            "beard_wind": null
+          }
+        ]
+      },
+      {
+        "frame": 11,
+        "draw_parameters": [
+          {
+            "draw": "seat",
+            "beard": 0.07,
+            "grey": 0.0,
+            "b": 0.88,
+            "pack": 0
+          },
+          {
+            "draw": "bulb",
+            "b": 0.88
+          },
+          {
+            "draw": "pm_full",
+            "beard": 0.07,
+            "grey": 0.0,
+            "beard_trail": 0,
+            "beard_wind": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "shot": "C9_onwards",
+    "samples": [
+      {
+        "frame": 0,
+        "draw_parameters": [
+          {
+            "draw": "stand",
+            "b": 0.85,
+            "beard": 0.09,
+            "grey": 0.0,
+            "stack": 0
+          },
+          {
+            "draw": "bulb",
+            "b": 0.85
+          },
+          {
+            "draw": "pm_full",
+            "beard": 0.09,
+            "grey": 0.0,
+            "beard_trail": 0,
+            "beard_wind": null
+          }
+        ]
+      },
+      {
+        "frame": 33,
+        "draw_parameters": [
+          {
+            "draw": "walker",
+            "b": 0.85,
+            "beard": 0.09,
+            "grey": 0.0,
+            "stack": 5,
+            "pack": 0,
+            "beard_trail": 0
+          },
+          {
+            "draw": "bulb",
+            "b": 0.85
+          },
+          {
+            "draw": "paper_stack",
+            "n": 5
+          },
+          {
+            "draw": "pm_full",
+            "beard": 0.09,
+            "grey": 0.0,
+            "beard_trail": 0,
+            "beard_wind": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "shot": "D1_upwards",
+    "samples": [
+      {
+        "frame": 0,
+        "draw_parameters": [
+          {
+            "draw": "walker",
+            "b": 0.76,
+            "beard": 0.11,
+            "grey": 0.0,
+            "stack": 8,
+            "pack": 0,
+            "beard_trail": 0
+          },
+          {
+            "draw": "bulb",
+            "b": 0.76
+          },
+          {
+            "draw": "paper_stack",
+            "n": 8
+          },
+          {
+            "draw": "pm_full",
+            "beard": 0.11,
+            "grey": 0.0,
+            "beard_trail": 0,
+            "beard_wind": null
+          }
+        ]
+      },
+      {
+        "frame": 21,
+        "draw_parameters": [
+          {
+            "draw": "walker",
+            "b": 0.76,
+            "beard": 0.11,
+            "grey": 0.0,
+            "stack": 8,
+            "pack": 0,
+            "beard_trail": 0
+          },
+          {
+            "draw": "bulb",
+            "b": 0.76
+          },
+          {
+            "draw": "paper_stack",
+            "n": 8
+          },
+          {
+            "draw": "pm_full",
+            "beard": 0.11,
+            "grey": 0.0,
+            "beard_trail": 0,
+            "beard_wind": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "shot": "D2_customer_success",
+    "samples": [
+      {
+        "frame": 0,
+        "draw_parameters": [
+          {
+            "draw": "stand",
+            "b": 0.72,
+            "beard": 0.12,
+            "grey": 0,
+            "stack": 10
+          },
+          {
+            "draw": "paper_stack",
+            "n": 10
+          },
+          {
+            "draw": "bulb",
+            "b": 0.72
+          },
+          {
+            "draw": "pm_full",
+            "beard": 0.12,
+            "grey": 0,
+            "beard_trail": 0,
+            "beard_wind": null
+          }
+        ]
+      },
+      {
+        "frame": 27,
+        "draw_parameters": [
+          {
+            "draw": "stand",
+            "b": 0.72,
+            "beard": 0.12,
+            "grey": 0,
+            "stack": 10
+          },
+          {
+            "draw": "paper_stack",
+            "n": 10
+          },
+          {
+            "draw": "bulb",
+            "b": 0.72
+          },
+          {
+            "draw": "pm_full",
+            "beard": 0.12,
+            "grey": 0,
+            "beard_trail": 0,
+            "beard_wind": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "shot": "D3_please_wait",
+    "samples": [
+      {
+        "frame": 0,
+        "draw_parameters": [
+          {
+            "draw": "stand",
+            "b": 0.7,
+            "beard": 0.13,
+            "grey": 0,
+            "stack": 10
+          },
+          {
+            "draw": "paper_stack",
+            "n": 10
+          },
+          {
+            "draw": "bulb",
+            "b": 0.7
+          },
+          {
+            "draw": "pm_full",
+            "beard": 0.13,
+            "grey": 0,
+            "beard_trail": 0,
+            "beard_wind": null
+          }
+        ]
+      },
+      {
+        "frame": 13,
+        "draw_parameters": [
+          {
+            "draw": "stand",
+            "b": 0.7,
+            "beard": 0.13,
+            "grey": 0,
+            "stack": 10
+          },
+          {
+            "draw": "paper_stack",
+            "n": 10
+          },
+          {
+            "draw": "bulb",
+            "b": 0.7
+          },
+          {
+            "draw": "pm_full",
+            "beard": 0.13,
+            "grey": 0,
+            "beard_trail": 0,
+            "beard_wind": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "shot": "D4_sit",
+    "samples": [
+      {
+        "frame": 0,
+        "draw_parameters": [
+          {
+            "draw": "seat",
+            "beard": 0.18,
+            "grey": 0.05,
+            "b": 0.67,
+            "pack": 0
+          },
+          {
+            "draw": "bulb",
+            "b": 0.67
+          },
+          {
+            "draw": "pm_full",
+            "beard": 0.18,
+            "grey": 0.05,
+            "beard_trail": 0,
+            "beard_wind": null
+          },
+          {
+            "draw": "paper_stack",
+            "n": 12
+          }
+        ]
+      },
+      {
+        "frame": 12,
+        "draw_parameters": [
+          {
+            "draw": "seat",
+            "beard": 0.18,
+            "grey": 0.05,
+            "b": 0.67,
+            "pack": 0
+          },
+          {
+            "draw": "bulb",
+            "b": 0.67
+          },
+          {
+            "draw": "pm_full",
+            "beard": 0.18,
+            "grey": 0.05,
+            "beard_trail": 0,
+            "beard_wind": null
+          },
+          {
+            "draw": "paper_stack",
+            "n": 12
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "shot": "D5_product_owner",
+    "samples": [
+      {
+        "frame": 0,
+        "draw_parameters": [
+          {
+            "draw": "stand",
+            "b": 0.62,
+            "beard": 0.21,
+            "grey": 0.1,
+            "stack": 13
+          },
+          {
+            "draw": "paper_stack",
+            "n": 13
+          },
+          {
+            "draw": "bulb",
+            "b": 0.62
+          },
+          {
+            "draw": "pm_full",
+            "beard": 0.21,
+            "grey": 0.1,
+            "beard_trail": 0,
+            "beard_wind": null
+          }
+        ]
+      },
+      {
+        "frame": 33,
+        "draw_parameters": [
+          {
+            "draw": "stand",
+            "b": 0.62,
+            "beard": 0.21,
+            "grey": 0.1,
+            "stack": 13
+          },
+          {
+            "draw": "paper_stack",
+            "n": 13
+          },
+          {
+            "draw": "bulb",
+            "b": 0.62
+          },
+          {
+            "draw": "pm_full",
+            "beard": 0.21,
+            "grey": 0.1,
+            "beard_trail": 0,
+            "beard_wind": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "shot": "D6_sit_again",
+    "samples": [
+      {
+        "frame": 0,
+        "draw_parameters": [
+          {
+            "draw": "seat",
+            "beard": 0.26,
+            "grey": 0.12,
+            "b": 0.57,
+            "pack": 0
+          },
+          {
+            "draw": "bulb",
+            "b": 0.57
+          },
+          {
+            "draw": "pm_full",
+            "beard": 0.26,
+            "grey": 0.12,
+            "beard_trail": 0,
+            "beard_wind": null
+          },
+          {
+            "draw": "paper_stack",
+            "n": 16
+          }
+        ]
+      },
+      {
+        "frame": 11,
+        "draw_parameters": [
+          {
+            "draw": "seat",
+            "beard": 0.26,
+            "grey": 0.12,
+            "b": 0.57,
+            "pack": 0
+          },
+          {
+            "draw": "bulb",
+            "b": 0.57
+          },
+          {
+            "draw": "pm_full",
+            "beard": 0.26,
+            "grey": 0.12,
+            "beard_trail": 0,
+            "beard_wind": null
+          },
+          {
+            "draw": "paper_stack",
+            "n": 16
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "shot": "D7_planning",
+    "samples": [
+      {
+        "frame": 0,
+        "draw_parameters": [
+          {
+            "draw": "walker",
+            "b": 0.52,
+            "beard": 0.3,
+            "grey": 0.2,
+            "stack": 16,
+            "pack": 0,
+            "beard_trail": 0
+          },
+          {
+            "draw": "bulb",
+            "b": 0.52
+          },
+          {
+            "draw": "paper_stack",
+            "n": 16
+          },
+          {
+            "draw": "pm_full",
+            "beard": 0.3,
+            "grey": 0.2,
+            "beard_trail": 0,
+            "beard_wind": null
+          }
+        ]
+      },
+      {
+        "frame": 19,
+        "draw_parameters": [
+          {
+            "draw": "walker",
+            "b": 0.52,
+            "beard": 0.3,
+            "grey": 0.2,
+            "stack": 16,
+            "pack": 0,
+            "beard_trail": 0
+          },
+          {
+            "draw": "bulb",
+            "b": 0.52
+          },
+          {
+            "draw": "paper_stack",
+            "n": 16
+          },
+          {
+            "draw": "pm_full",
+            "beard": 0.3,
+            "grey": 0.2,
+            "beard_trail": 0,
+            "beard_wind": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "shot": "D8_sit_in_the_snow",
+    "samples": [
+      {
+        "frame": 0,
+        "draw_parameters": [
+          {
+            "draw": "seat",
+            "beard": 0.36,
+            "grey": 0.27,
+            "b": 0.46,
+            "pack": 0
+          },
+          {
+            "draw": "bulb",
+            "b": 0.46
+          },
+          {
+            "draw": "pm_full",
+            "beard": 0.36,
+            "grey": 0.27,
+            "beard_trail": 0,
+            "beard_wind": null
+          },
+          {
+            "draw": "paper_stack",
+            "n": 20
+          }
+        ]
+      },
+      {
+        "frame": 16,
+        "draw_parameters": [
+          {
+            "draw": "seat",
+            "beard": 0.36,
+            "grey": 0.27,
+            "b": 0.46,
+            "pack": 0
+          },
+          {
+            "draw": "bulb",
+            "b": 0.46
+          },
+          {
+            "draw": "pm_full",
+            "beard": 0.36,
+            "grey": 0.27,
+            "beard_trail": 0,
+            "beard_wind": null
+          },
+          {
+            "draw": "paper_stack",
+            "n": 20
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "shot": "D9_how_far",
+    "samples": [
+      {
+        "frame": 0,
+        "draw_parameters": [
+          {
+            "draw": "big_mountain",
+            "dot_b": 0.42,
+            "pm_beard": 0.36,
+            "pm_grey": 0.27,
+            "pm_papers": 20
+          }
+        ]
+      },
+      {
+        "frame": 41,
+        "draw_parameters": [
+          {
+            "draw": "big_mountain",
+            "dot_b": 0.42,
+            "pm_beard": 0.36,
+            "pm_grey": 0.27,
+            "pm_papers": 20
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "shot": "E1_the_fork",
+    "samples": [
+      {
+        "frame": 6,
+        "draw_parameters": [
+          {
+            "draw": "walker",
+            "b": 0.38,
+            "beard": 0.5,
+            "grey": 0.45,
+            "stack": 0,
+            "pack": 180,
+            "beard_trail": 0
+          },
+          {
+            "draw": "bulb",
+            "b": 0.38
+          },
+          {
+            "draw": "pm_full",
+            "beard": 0.5,
+            "grey": 0.45,
+            "beard_trail": 0,
+            "beard_wind": null
+          }
+        ]
+      },
+      {
+        "frame": 33,
+        "draw_parameters": [
+          {
+            "draw": "walker",
+            "b": 0.38,
+            "beard": 0.5,
+            "grey": 0.45,
+            "stack": 0,
+            "pack": 180,
+            "beard_trail": 0
+          },
+          {
+            "draw": "bulb",
+            "b": 0.38
+          },
+          {
+            "draw": "pm_full",
+            "beard": 0.5,
+            "grey": 0.45,
+            "beard_trail": 0,
+            "beard_wind": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "shot": "E2_here_be_dragons",
+    "samples": [
+      {
+        "frame": 0,
+        "draw_parameters": [
+          {
+            "draw": "climber",
+            "st": {
+              "b": 0.37,
+              "beard": 0.5,
+              "grey": 0.45
+            },
+            "stack": 0,
+            "pack": 180,
+            "beard_trail": 0
+          }
+        ]
+      },
+      {
+        "frame": 21,
+        "draw_parameters": [
+          {
+            "draw": "climber",
+            "st": {
+              "b": 0.37,
+              "beard": 0.5,
+              "grey": 0.45
+            },
+            "stack": 0,
+            "pack": 180,
+            "beard_trail": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "shot": "E3_or_the_sea_monster",
+    "samples": [
+      {
+        "frame": 0,
+        "draw_parameters": [
+          {
+            "draw": "climber",
+            "st": {
+              "b": 0.36,
+              "beard": 0.5,
+              "grey": 0.45
+            },
+            "stack": 0,
+            "pack": 180,
+            "beard_trail": 0
+          }
+        ]
+      },
+      {
+        "frame": 21,
+        "draw_parameters": [
+          {
+            "draw": "climber",
+            "st": {
+              "b": 0.36,
+              "beard": 0.5,
+              "grey": 0.45
+            },
+            "stack": 0,
+            "pack": 180,
+            "beard_trail": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "shot": "E4_either_way",
+    "samples": [
+      {
+        "frame": 0,
+        "draw_parameters": [
+          {
+            "draw": "walker",
+            "b": 0.34,
+            "beard": 0.5,
+            "grey": 0.45,
+            "stack": 0,
+            "pack": 180,
+            "beard_trail": 0
+          },
+          {
+            "draw": "bulb",
+            "b": 0.34
+          },
+          {
+            "draw": "pm_full",
+            "beard": 0.5,
+            "grey": 0.45,
+            "beard_trail": 0,
+            "beard_wind": null
+          }
+        ]
+      },
+      {
+        "frame": 35,
+        "draw_parameters": [
+          {
+            "draw": "walker",
+            "b": 0.34,
+            "beard": 0.5,
+            "grey": 0.45,
+            "stack": 0,
+            "pack": 180,
+            "beard_trail": 0
+          },
+          {
+            "draw": "bulb",
+            "b": 0.34
+          },
+          {
+            "draw": "pm_full",
+            "beard": 0.5,
+            "grey": 0.45,
+            "beard_trail": 0,
+            "beard_wind": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "shot": "F1_thin_air",
+    "samples": [
+      {
+        "frame": 0,
+        "draw_parameters": [
+          {
+            "draw": "walker",
+            "b": 0.25,
+            "beard": 1.05,
+            "grey": 0.8,
+            "stack": 0,
+            "pack": 260,
+            "beard_trail": 700
+          },
+          {
+            "draw": "bulb",
+            "b": 0.25
+          },
+          {
+            "draw": "pm_full",
+            "beard": 1.05,
+            "grey": 0.8,
+            "beard_trail": 700,
+            "beard_wind": {
+              "time": 0.0,
+              "length": 760,
+              "strength": 1
+            }
+          }
+        ]
+      },
+      {
+        "frame": 28,
+        "draw_parameters": [
+          {
+            "draw": "walker",
+            "b": 0.25,
+            "beard": 1.05,
+            "grey": 0.8,
+            "stack": 0,
+            "pack": 260,
+            "beard_trail": 700
+          },
+          {
+            "draw": "bulb",
+            "b": 0.25
+          },
+          {
+            "draw": "pm_full",
+            "beard": 1.05,
+            "grey": 0.8,
+            "beard_trail": 700,
+            "beard_wind": {
+              "time": 2.3333333333333335,
+              "length": 760,
+              "strength": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "shot": "F3_oxygen",
+    "samples": [
+      {
+        "frame": 0,
+        "draw_parameters": [
+          {
+            "draw": "bulb",
+            "b": 0.2
+          },
+          {
+            "draw": "pm_full",
+            "beard": 1.05,
+            "grey": 0.8,
+            "beard_trail": 0,
+            "beard_wind": {
+              "time": 0.0,
+              "length": 760,
+              "strength": 1
+            }
+          }
+        ]
+      },
+      {
+        "frame": 23,
+        "draw_parameters": [
+          {
+            "draw": "bulb",
+            "b": 0.2
+          },
+          {
+            "draw": "pm_full",
+            "beard": 1.05,
+            "grey": 0.8,
+            "beard_trail": 0,
+            "beard_wind": {
+              "time": 1.9166666666666667,
+              "length": 760,
+              "strength": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "shot": "F4_on_all_fours",
+    "samples": [
+      {
+        "frame": 0,
+        "draw_parameters": [
+          {
+            "draw": "pm_crawl",
+            "beard_tail": 1400,
+            "grey": 0.8,
+            "bulb_b": 0.14,
+            "pack": true,
+            "beard_wind": {
+              "time": 0.0,
+              "length": 1050,
+              "strength": 1
+            },
+            "paper_count": 28
+          }
+        ]
+      },
+      {
+        "frame": 23,
+        "draw_parameters": [
+          {
+            "draw": "pm_crawl",
+            "beard_tail": 1400,
+            "grey": 0.8,
+            "bulb_b": 0.14,
+            "pack": true,
+            "beard_wind": {
+              "time": 1.9166666666666667,
+              "length": 1050,
+              "strength": 1
+            },
+            "paper_count": 28
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "shot": "G1_the_summit",
+    "samples": [
+      {
+        "frame": 17,
+        "draw_parameters": [
+          {
+            "draw": "pm_crawl",
+            "beard_tail": 2600,
+            "grey": 0.88,
+            "bulb_b": 0.1,
+            "pack": true,
+            "beard_wind": {
+              "time": 1.4166666666666667,
+              "length": 1050,
+              "strength": 0.35
+            },
+            "paper_count": 28
+          }
+        ]
+      },
+      {
+        "frame": 40,
+        "draw_parameters": [
+          {
+            "draw": "pm_crawl",
+            "beard_tail": 2600,
+            "grey": 0.88,
+            "bulb_b": 0.1,
+            "pack": true,
+            "beard_wind": {
+              "time": 3.3333333333333335,
+              "length": 1050,
+              "strength": 0.35
+            },
+            "paper_count": 28
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "shot": "G2_for_you",
+    "samples": [
+      {
+        "frame": 0,
+        "draw_parameters": [
+          {
+            "draw": "pm_crawl",
+            "beard_tail": 2600,
+            "grey": 0.88,
+            "bulb_b": 0.08,
+            "pack": true,
+            "beard_wind": {
+              "time": 0.0,
+              "length": 1050,
+              "strength": 0.35
+            },
+            "paper_count": 28
+          }
+        ]
+      },
+      {
+        "frame": 37,
+        "draw_parameters": [
+          {
+            "draw": "pm_crawl",
+            "beard_tail": 2600,
+            "grey": 0.88,
+            "bulb_b": 0.08,
+            "pack": true,
+            "beard_wind": {
+              "time": 3.0833333333333335,
+              "length": 1050,
+              "strength": 0.35
+            },
+            "paper_count": 28
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "shot": "G3_who_are_you",
+    "samples": [
+      {
+        "frame": 0,
+        "draw_parameters": [
+          {
+            "draw": "pm_crawl",
+            "beard_tail": 2600,
+            "grey": 0.88,
+            "bulb_b": 0.06,
+            "pack": true,
+            "beard_wind": {
+              "time": 0.0,
+              "length": 1050,
+              "strength": 0.35
+            },
+            "paper_count": 28
+          }
+        ]
+      },
+      {
+        "frame": 37,
+        "draw_parameters": [
+          {
+            "draw": "pm_crawl",
+            "beard_tail": 2600,
+            "grey": 0.88,
+            "bulb_b": 0.06,
+            "pack": true,
+            "beard_wind": {
+              "time": 3.0833333333333335,
+              "length": 1050,
+              "strength": 0.35
+            },
+            "paper_count": 28
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "shot": "G4_silence",
+    "samples": [
+      {
+        "frame": 0,
+        "draw_parameters": [
+          {
+            "draw": "pm_crawl",
+            "beard_tail": 2600,
+            "grey": 0.88,
+            "bulb_b": 0.001,
+            "pack": true,
+            "beard_wind": {
+              "time": 0.0,
+              "length": 1050,
+              "strength": 0.35
+            },
+            "paper_count": 28
+          }
+        ]
+      },
+      {
+        "frame": 43,
+        "draw_parameters": [
+          {
+            "draw": "pm_crawl",
+            "beard_tail": 2600,
+            "grey": 0.88,
+            "bulb_b": 0.02635841074745388,
+            "pack": true,
+            "beard_wind": {
+              "time": 3.5833333333333335,
+              "length": 1050,
+              "strength": 0.35
+            },
+            "paper_count": 28
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "shot": "G5_out",
+    "samples": [
+      {
+        "frame": 0,
+        "draw_parameters": [
+          {
+            "draw": "pm_crawl",
+            "beard_tail": 2600,
+            "grey": 0.88,
+            "bulb_b": 0.025,
+            "pack": true,
+            "beard_wind": {
+              "time": 0.0,
+              "length": 1050,
+              "strength": 0.35
+            },
+            "paper_count": 28
+          }
+        ]
+      },
+      {
+        "frame": 54,
+        "draw_parameters": [
+          {
+            "draw": "pm_crawl",
+            "beard_tail": 2600,
+            "grey": 0.88,
+            "bulb_b": 0.0,
+            "pack": true,
+            "beard_wind": {
+              "time": 4.5,
+              "length": 1050,
+              "strength": 0.35
+            },
+            "paper_count": 28
+          },
+          {
+            "draw": "bulb",
+            "b": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "shot": "H_end",
+    "samples": [
+      {
+        "frame": 0,
+        "draw_parameters": [
+          {
+            "draw": "bulb",
+            "b": 0
+          }
+        ]
+      },
+      {
+        "frame": 52,
+        "draw_parameters": [
+          {
+            "draw": "bulb",
+            "b": 0
+          }
+        ]
+      }
+    ]
+  }
+]

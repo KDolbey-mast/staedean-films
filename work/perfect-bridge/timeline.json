@@ -1,0 +1,32 @@
+[
+  {
+    "shot": "opening",
+    "start": 0,
+    "duration": 12.0,
+    "frames": 144
+  },
+  {
+    "shot": "planning",
+    "start": 12,
+    "duration": 7.0,
+    "frames": 84
+  },
+  {
+    "shot": "reveal",
+    "start": 19,
+    "duration": 6.0,
+    "frames": 72
+  },
+  {
+    "shot": "together",
+    "start": 25,
+    "duration": 12.0,
+    "frames": 144
+  },
+  {
+    "shot": "ending",
+    "start": 37,
+    "duration": 4.0,
+    "frames": 48
+  }
+]

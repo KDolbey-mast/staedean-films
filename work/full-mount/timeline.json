@@ -1,0 +1,212 @@
+[
+  {
+    "shot": "A_office_and_reveal",
+    "start": 0.0,
+    "duration": 18.583333333333332,
+    "frames": 223
+  },
+  {
+    "shot": "B1_oh",
+    "start": 18.583333333333332,
+    "duration": 3.4166666666666665,
+    "frames": 41
+  },
+  {
+    "shot": "B2_off_he_goes",
+    "start": 22.0,
+    "duration": 4.0,
+    "frames": 48
+  },
+  {
+    "shot": "C1_arrival",
+    "start": 26.0,
+    "duration": 2.5833333333333335,
+    "frames": 31
+  },
+  {
+    "shot": "C2_the_pitch",
+    "start": 28.583333333333332,
+    "duration": 3.8333333333333335,
+    "frames": 46
+  },
+  {
+    "shot": "C3_take_a_ticket",
+    "start": 32.416666666666664,
+    "duration": 2.1666666666666665,
+    "frames": 26
+  },
+  {
+    "shot": "C4_ticket_087",
+    "start": 34.58333333333333,
+    "duration": 3.4166666666666665,
+    "frames": 41
+  },
+  {
+    "shot": "C5_take_a_seat",
+    "start": 37.99999999999999,
+    "duration": 2.4166666666666665,
+    "frames": 29
+  },
+  {
+    "shot": "C6_waiting",
+    "start": 40.41666666666666,
+    "duration": 3.8333333333333335,
+    "frames": 46
+  },
+  {
+    "shot": "C7_087",
+    "start": 44.24999999999999,
+    "duration": 2.0,
+    "frames": 24
+  },
+  {
+    "shot": "C8_jolt",
+    "start": 46.24999999999999,
+    "duration": 1.4166666666666667,
+    "frames": 17
+  },
+  {
+    "shot": "C9_onwards",
+    "start": 47.66666666666666,
+    "duration": 3.5833333333333335,
+    "frames": 43
+  },
+  {
+    "shot": "D1_upwards",
+    "start": 51.24999999999999,
+    "duration": 2.8333333333333335,
+    "frames": 34
+  },
+  {
+    "shot": "D2_customer_success",
+    "start": 54.08333333333333,
+    "duration": 3.0,
+    "frames": 36
+  },
+  {
+    "shot": "D3_please_wait",
+    "start": 57.08333333333333,
+    "duration": 1.1666666666666667,
+    "frames": 14
+  },
+  {
+    "shot": "D4_sit",
+    "start": 58.24999999999999,
+    "duration": 2.0,
+    "frames": 24
+  },
+  {
+    "shot": "D5_product_owner",
+    "start": 60.24999999999999,
+    "duration": 3.0,
+    "frames": 36
+  },
+  {
+    "shot": "D6_sit_again",
+    "start": 63.24999999999999,
+    "duration": 2.0,
+    "frames": 24
+  },
+  {
+    "shot": "D7_planning",
+    "start": 65.25,
+    "duration": 2.0,
+    "frames": 24
+  },
+  {
+    "shot": "D8_sit_in_the_snow",
+    "start": 67.25,
+    "duration": 2.5833333333333335,
+    "frames": 31
+  },
+  {
+    "shot": "D9_how_far",
+    "start": 69.83333333333333,
+    "duration": 4.166666666666667,
+    "frames": 50
+  },
+  {
+    "shot": "E1_the_fork",
+    "start": 74.0,
+    "duration": 2.8333333333333335,
+    "frames": 34
+  },
+  {
+    "shot": "E2_here_be_dragons",
+    "start": 76.83333333333333,
+    "duration": 2.1666666666666665,
+    "frames": 26
+  },
+  {
+    "shot": "E3_or_the_sea_monster",
+    "start": 79.0,
+    "duration": 2.1666666666666665,
+    "frames": 26
+  },
+  {
+    "shot": "E4_either_way",
+    "start": 81.16666666666667,
+    "duration": 3.8333333333333335,
+    "frames": 46
+  },
+  {
+    "shot": "F1_thin_air",
+    "start": 85.0,
+    "duration": 3.4166666666666665,
+    "frames": 41
+  },
+  {
+    "shot": "F2_dot_dot_dot",
+    "start": 88.41666666666667,
+    "duration": 3.0,
+    "frames": 36
+  },
+  {
+    "shot": "F3_oxygen",
+    "start": 91.41666666666667,
+    "duration": 3.0,
+    "frames": 36
+  },
+  {
+    "shot": "F4_on_all_fours",
+    "start": 94.41666666666667,
+    "duration": 3.1666666666666665,
+    "frames": 38
+  },
+  {
+    "shot": "G1_the_summit",
+    "start": 97.58333333333334,
+    "duration": 3.4166666666666665,
+    "frames": 41
+  },
+  {
+    "shot": "G2_for_you",
+    "start": 101.00000000000001,
+    "duration": 3.1666666666666665,
+    "frames": 38
+  },
+  {
+    "shot": "G3_who_are_you",
+    "start": 104.16666666666669,
+    "duration": 3.1666666666666665,
+    "frames": 38
+  },
+  {
+    "shot": "G4_silence",
+    "start": 107.33333333333336,
+    "duration": 4.416666666666667,
+    "frames": 53
+  },
+  {
+    "shot": "G5_out",
+    "start": 111.75000000000003,
+    "duration": 4.583333333333333,
+    "frames": 55
+  },
+  {
+    "shot": "H_end",
+    "start": 116.33333333333336,
+    "duration": 4.416666666666667,
+    "frames": 53
+  }
+]

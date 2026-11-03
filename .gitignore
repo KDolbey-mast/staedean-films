@@ -1,0 +1,19 @@
+# Local environments and generated frame caches
+.venv/
+work/animation-env/
+**/__pycache__/
+*.pyc
+.DS_Store
+**/frames/
+**/sequence/
+**/film_seq/
+**/film2_frames/
+**/build/
+*.mp4
+*.zip
+*.wav
+# Required reference audio, deliberately included for reproducible continuity.
+!work/bridge-test/binoculars-v2/soundtrack.wav
+!work/the-priority/soundtrack.wav
+!work/the-priority-foreground/soundtrack.wav
+!work/full-mount/continuity-edit/short-soundtrack.wav

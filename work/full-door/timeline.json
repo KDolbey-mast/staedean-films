@@ -1,0 +1,80 @@
+[
+  {
+    "shot": "O1_the_door",
+    "start": 0.0,
+    "duration": 4.5,
+    "frames": 54
+  },
+  {
+    "shot": "P1_twenty_metres",
+    "start": 4.5,
+    "duration": 2.5,
+    "frames": 30
+  },
+  {
+    "shot": "V1_week1",
+    "start": 7.0,
+    "duration": 9.0,
+    "frames": 108
+  },
+  {
+    "shot": "V2_week2",
+    "start": 16.0,
+    "duration": 4.25,
+    "frames": 51
+  },
+  {
+    "shot": "V3_week3",
+    "start": 20.25,
+    "duration": 3.75,
+    "frames": 45
+  },
+  {
+    "shot": "H1_handshake",
+    "start": 24.0,
+    "duration": 4.0,
+    "frames": 48
+  },
+  {
+    "shot": "L1_over_the_mountain",
+    "start": 28.0,
+    "duration": 5.5,
+    "frames": 66
+  },
+  {
+    "shot": "L2_got_it",
+    "start": 33.5,
+    "duration": 2.5,
+    "frames": 30
+  },
+  {
+    "shot": "S1_now_open",
+    "start": 36.0,
+    "duration": 5.833333333333333,
+    "frames": 70
+  },
+  {
+    "shot": "N1_how_we_work",
+    "start": 41.833333333333336,
+    "duration": 5.0,
+    "frames": 60
+  },
+  {
+    "shot": "E1_still_die",
+    "start": 46.833333333333336,
+    "duration": 3.25,
+    "frames": 39
+  },
+  {
+    "shot": "E2_live_forever",
+    "start": 50.083333333333336,
+    "duration": 4.0,
+    "frames": 48
+  },
+  {
+    "shot": "E3_logo",
+    "start": 54.083333333333336,
+    "duration": 3.5,
+    "frames": 42
+  }
+]

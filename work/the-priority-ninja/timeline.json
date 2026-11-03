@@ -1,0 +1,14 @@
+[
+  {
+    "shot": "priority",
+    "start": 0,
+    "duration": 11.0,
+    "frames": 132
+  },
+  {
+    "shot": "ninja",
+    "start": 11,
+    "duration": 4.0,
+    "frames": 48
+  }
+]

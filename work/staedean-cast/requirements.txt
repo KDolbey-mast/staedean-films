@@ -1,0 +1,7 @@
+numpy
+scipy
+pillow
+playwright        # then: playwright install chromium
+python-pptx       # only for the storyboard deck (src/deck.py)
+potracer          # only if you re-trace a logo
+# system: ffmpeg

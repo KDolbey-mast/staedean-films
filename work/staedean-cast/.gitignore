@@ -1,0 +1,13 @@
+# renders and build output
+build/
+src/film_seq/
+src/film2_frames/
+src/film_*/
+src/vid/
+src/check*/
+src/sheets/
+*.mp4
+*.wav
+*.zip
+__pycache__/
+.DS_Store

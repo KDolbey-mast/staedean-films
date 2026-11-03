@@ -1,0 +1,32 @@
+[
+  {
+    "shot": "receive",
+    "start": 0,
+    "duration": 3.0,
+    "frames": 36
+  },
+  {
+    "shot": "chain",
+    "start": 3,
+    "duration": 6.0,
+    "frames": 72
+  },
+  {
+    "shot": "empty",
+    "start": 9,
+    "duration": 3.0,
+    "frames": 36
+  },
+  {
+    "shot": "delivery",
+    "start": 12,
+    "duration": 3.0,
+    "frames": 36
+  },
+  {
+    "shot": "reaction",
+    "start": 15,
+    "duration": 3.0,
+    "frames": 36
+  }
+]
