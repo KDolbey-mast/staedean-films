@@ -1,0 +1,25 @@
+{
+  "duration_seconds": 28,
+  "resolution": [
+    1080,
+    1350
+  ],
+  "aspect_ratio": "4:5",
+  "drawings": 336,
+  "output_fps": 24,
+  "complete_video_decode": "passed",
+  "cast_reference_revision": "4faa3ab",
+  "cast": [
+    "Customer: blond quiff, Sapphire jacket, burgundy tie",
+    "Customer Success: ginger bob, headset, teal top"
+  ],
+  "continuity": [
+    "matching equipment IDs and colours",
+    "customer places the request himself",
+    "service warning remains on E-24",
+    "resting arm replaced during fold gestures",
+    "same portrait tablet and card order in all shots"
+  ],
+  "end_card": "All three lines present for every frame of the full four-second hold",
+  "product_scope": "Symbolic comparison; no automated allocation, forecasting or predictive maintenance"
+}

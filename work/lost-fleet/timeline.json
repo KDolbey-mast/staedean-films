@@ -1,0 +1,44 @@
+[
+  {
+    "shot": "01-missing",
+    "start": 0,
+    "duration": 4.0,
+    "frames": 48
+  },
+  {
+    "shot": "02-excavator",
+    "start": 4,
+    "duration": 2.0,
+    "frames": 24
+  },
+  {
+    "shot": "03-crane",
+    "start": 6,
+    "duration": 2.0,
+    "frames": 24
+  },
+  {
+    "shot": "04-sheep-driver",
+    "start": 8,
+    "duration": 3.0,
+    "frames": 36
+  },
+  {
+    "shot": "05-binoculars",
+    "start": 11,
+    "duration": 5.0,
+    "frames": 60
+  },
+  {
+    "shot": "06-map",
+    "start": 16,
+    "duration": 5.0,
+    "frames": 60
+  },
+  {
+    "shot": "07-ending",
+    "start": 21,
+    "duration": 4.0,
+    "frames": 48
+  }
+]

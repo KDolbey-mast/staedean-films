@@ -1,0 +1,1 @@
+This CAST.md is the production-time snapshot checked at revision 4faa3ab. For current casting authority, read ../../staedean-cast/docs/CAST.md instead. The current guide now includes the Lost Fleet sheep reference.

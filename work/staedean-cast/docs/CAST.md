@@ -1,6 +1,6 @@
 # THE CAST
 
-The recurring characters, props and places from the STAEDEAN films. The implemented cast is drawn by code so designs stay consistent between appearances; the sheep's missing visual reference is noted below. Change a shared drawing once and it changes everywhere it is reused.
+The recurring characters, props and places from the STAEDEAN films. The implemented cast is drawn by code so designs stay consistent between appearances; the sheep's Lost Fleet reference is linked below. Change a shared drawing once and it changes everywhere it is reused.
 
 ## Canon and casting authority
 
@@ -290,11 +290,11 @@ The market. Customer bodies with different jackets, hair and ties (`film2.QUEUE`
 
 **Motivation and personality:** the supported scope is comic/absurdist use. No fixed personal objective, job, biography, allegiance or detailed temperament is established in this repository.
 
-**Visual continuity:** no sheep profile, model sheet or drawing helper was found in the inspected repository documentation and Python animation sources at this update. Do not claim a particular costume, colour, rig or earlier appearance is approved canon. If a story earns a sheep appearance, obtain the existing approved reference from Ken before defining or changing its design.
+**Visual continuity:** the driving sheep now has a concrete reference in [The Lost Fleet director](../../lost-fleet/director.py), functions `sheep()` and `dumper()`, and [the rendered driver still](../../../outputs/The-Lost-Fleet-sheep-v1.png). Preserve the cream fleece, warm grey/tan face and ears, round eyes, dark hooves and existing ink-and-wash treatment. The mustard hard hat and yellow dumper belong to this rental-yard gag; they do not establish a permanent job or uniform. Ken explicitly requested committing this film with the driving sheep on 2026-11-04. Reuse this drawing when a future brief earns a sheep appearance; consult Ken before a substantive redesign.
 
 **Do / appropriate uses:** use an occasional sheep gag or background Easter egg only when the setting and payoff explain why it is there. State that reason in the storyboard. Omission is the default when it adds no joke.
 
-**Don't / relationships:** no sheep in every episode, scene, end card or customer story; no automatic sheep customer, employee, hero or product demonstrator. Do not infer an alliance with the ninja or team. The proposed Rental IQ appearances do not establish permanent costume, occupation or setting rules.
+**Don't / relationships:** no sheep in every episode, scene, end card or customer story; no automatic sheep customer, employee, hero or product demonstrator. Do not infer an alliance with the ninja or team. The Lost Fleet appearance does not establish permanent costume, occupation or setting rules. The Bigger Picture correctly uses only the customer and Customer Success.
 
 ## Other established creature imagery
 
@@ -308,7 +308,7 @@ These are bounded visual gags, not interchangeable recurring heroes. No personal
 
 ## Casting failure example: the Rental IQ draft
 
-Ken identified two errors in the proposed Rental IQ treatment: it made the ninja a helpful hero who brought chaotic information together, and inserted the sheep gratuitously. This is a rejected casting pattern, not a new episode establishing canon.
+Ken identified two errors in the proposed Rental IQ treatment: it made the ninja a helpful hero who brought chaotic information together, and inserted the sheep gratuitously. This is a rejected casting pattern, not a new episode establishing canon. It is distinct from The Lost Fleet, whose sheep-driving reveal is the explicitly requested central gag, and The Bigger Picture, which casts Customer Success as the helper and the customer as decision maker.
 
 - **Wrong:** "Reuse the friendly ninja" as the STAEDEAN solution, plus sheep cameos simply because they are familiar.
 - **Right:** choose a customer-facing protagonist and solution action justified by the brief and the profiles above; include the ninja only if his opposing role serves the story. Omit the sheep unless a specific setting-based gag needs it.
@@ -386,3 +386,9 @@ The rig draws in a neutral base palette. `src/rb.py` maps base colours to the fi
 ## The logo
 
 `assets/logo/staedean_logo_clean.svg` is the vector, traced from the brand logo. `src/logo_path.py` holds the same path for code. In the films it is drawn in the house style: teal fill slightly offset, broken pen outline, a string of lit bulbs above.
+
+## Rental shorts added 2026-11-04
+
+- **The Bigger Picture (28 s, 4:5):** the blond customer represents the rental business. Customer Success retains her ginger bob, headset and teal top, introduces comparative information, and acknowledges the customer's own equipment choice. ERP availability stays correct; no automated allocation or predictive maintenance. [Storyboard](../../bigger-picture/storyboard.md).
+- **The Lost Fleet (25 s, 16:9):** the customer looks for equipment, the Maker uses the established binoculars and tablet, and the hard-hat sheep drives a dumper for the montage's absurd reveal. Its ending callback is specific to this gag. The map explicitly shows recorded location history. [Storyboard and product check](../../lost-fleet/storyboard.md).
+- Keep these as separate films. Neither changes the ninja's silent-enemy role or requires a sheep in other shorts.

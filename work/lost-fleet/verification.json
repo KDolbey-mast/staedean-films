@@ -1,0 +1,23 @@
+{
+  "duration_seconds": 25,
+  "drawings": 300,
+  "output_fps": 24,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "complete_video_decode": "passed",
+  "audio": "AAC",
+  "visual_checks": [
+    "seven shot keyframes",
+    "legible cobwebs",
+    "crane in tree",
+    "sheep mouth and music stop aligned at 9.8 seconds",
+    "dumper background travel",
+    "tablet tap foreground hand",
+    "recorded map labels and bounded artwork",
+    "final logo and tagline"
+  ],
+  "capability_basis": "https://staedean.com/rental/feature/equipment-rental-intelligence",
+  "capability_scope": "Recorded locations from connected sources; illustrated map is not a depiction of a native live GPS interface."
+}

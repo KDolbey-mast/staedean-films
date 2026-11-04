@@ -11,7 +11,7 @@ Before proposing or changing a story, read:
 - The ninja is the **silent enemy**. Never automatically cast him as the protagonist, STAEDEAN helper, rescuer or product solution. Any exception needs explicit story justification in the storyboard.
 - The sheep is an occasional humorous character/Easter egg. Omit it unless the gag and setting genuinely need it; it is not a universal mascot.
 - Choose characters for their role in the story. Keep the PM, Maker, customer, four department characters and palette variants distinct. The team are well-intentioned; the system is the joke.
-- Do not invent biographies, affiliations or visual identities. If a needed reference is missing (currently the sheep), state the gap and obtain the reference before designing it.
+- Do not invent biographies, affiliations or visual identities. If a needed reference is missing, state the gap and obtain the reference before designing it. The driving-sheep reference is now linked in CAST.md; its hard hat belongs to The Lost Fleet gag.
 - Older "friendly courier" source comments and historical drafts do not override the canonical guide. Existing deliveries can leave the team outmanoeuvred without making the ninja their ally.
 - Preserve approved cuts and preview/shelved status. A documentation correction is not an instruction to rewrite existing animation.
 - Use the current clean wash look and established rigs. Keep each short within its brief; Ken's current new-short direction is 15–30 seconds.

@@ -1,0 +1,38 @@
+[
+  {
+    "shot": "01-request",
+    "start": 0,
+    "duration": 4.0,
+    "frames": 48
+  },
+  {
+    "shot": "02-reports",
+    "start": 4,
+    "duration": 6.0,
+    "frames": 72
+  },
+  {
+    "shot": "03-insight",
+    "start": 10,
+    "duration": 6.0,
+    "frames": 72
+  },
+  {
+    "shot": "04-decision",
+    "start": 16,
+    "duration": 6.0,
+    "frames": 72
+  },
+  {
+    "shot": "05-reaction",
+    "start": 22,
+    "duration": 2.0,
+    "frames": 24
+  },
+  {
+    "shot": "06-end-card",
+    "start": 24,
+    "duration": 4.0,
+    "frames": 48
+  }
+]

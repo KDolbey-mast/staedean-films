@@ -1,0 +1,16 @@
+[
+  {
+    "film": "The Bigger Picture",
+    "filename": "The-Bigger-Picture-v1.mp4",
+    "bytes": 1924736,
+    "sha256": "2d3af07e9b183be7b1384706e5363d22733df23214de73039f22189be024ce2d",
+    "delivery": "Local verified export; not uploaded by this commit"
+  },
+  {
+    "film": "The Lost Fleet",
+    "filename": "The-Lost-Fleet-v1.mp4",
+    "bytes": 6721056,
+    "sha256": "4b94aefadcd0670dd6b232087216da848c84cfc06add18cfb77ab07e4bb05447",
+    "delivery": "Local verified export; not uploaded by this commit"
+  }
+]

@@ -10,7 +10,7 @@ I'm working on short animated films for STAEDEAN with a recurring cast. Read the
 **Casting rules**
 
 - The ninja is the **silent enemy**, not a helpful hero, STAEDEAN employee or automatic rescuer. Do not substitute him into the protagonist/product-solution role. Any exception requires explicit story justification in the storyboard.
-- The sheep is humorous and occasional, not a universal mascot. Omit it unless its appearance earns a gag in the setting. Its visual reference is not documented in this repo; obtain the approved reference before designing it.
+- The sheep is humorous and occasional, not a universal mascot. Omit it unless its appearance earns a gag in the setting. Reuse the Lost Fleet sheep helper and driver still linked in CAST.md when the story earns its appearance. The hard hat and dumper are specific to that gag.
 - Choose each actor because their established role belongs in the story, not because an asset exists. The PM need not lead every gag; Customer Success leads The Handoff preview.
 - Keep every character's role, visual identity and relationship constraints from CAST.md. Do not invent biographies or swap identities.
 - The team are well-intentioned. The system and overcomplication are the joke. The ninja's existing customer deliveries do not make him a teammate.

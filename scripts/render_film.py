@@ -7,6 +7,8 @@ import sys
 
 ROOT = Path(__file__).resolve().parents[1]
 FILMS = {
+    'bigger-picture': [('work/bigger-picture/build.py', '--render')],
+    'lost-fleet': [('work/lost-fleet/build.py', '--render')],
     'bridge': [('work/bridge-test/build-mountain.py',)],
     'priority': [('work/the-priority-reaction/build.py', '--render')],
     'handoff': [('work/the-handoff/build.py', '--render')],
