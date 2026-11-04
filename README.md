@@ -2,11 +2,11 @@
 
 The shared cast, current animation source and editing handoff for Ken's STAEDEAN films.
 
-**Claude or another collaborator: start with [the current handoff](docs/CURRENT_HANDOFF.md).** It identifies approved cuts, the latest preview, source entry points and decisions that should not be undone.
+**Claude or another collaborator: read the [canonical character profiles and casting rules](work/staedean-cast/docs/CAST.md), then [the current handoff](docs/CURRENT_HANDOFF.md).** The cast guide defines who belongs in each story: the ninja is the silent enemy, and the sheep is an occasional gag, not a universal mascot. The handoff identifies approved cuts, the latest preview, source entry points and decisions that should not be undone. [AGENTS.md](AGENTS.md) gives a short checklist for future agents.
 
 ## Current films
 
-Download the movies from the [2026-11-03 animation handoff release](https://github.com/KDolbey-mast/staedean-films/releases/tag/animation-handoff-2026-11-03). The repository is private; collaborators need access.
+Download the movies from the [2026-11-03 animation handoff release](https://github.com/KDolbey-mast/staedean-films/releases/tag/animation-handoff-2026-11-03). The repository is public.
 
 | Film | Duration | Current status | Movie filename |
 |---|---:|---|---|
@@ -39,7 +39,7 @@ Frame caches are intentionally reused. After editing drawing code, remove the af
 ## Source layout
 
 - `work/staedean-cast/src/`: shared character rigs, props, mountain, colouring and synthesized sound.
-- `work/staedean-cast/docs/`: original cast and story documentation. Its older marker-style and duration descriptions are superseded by the current handoff.
+- `work/staedean-cast/docs/`: canonical character profiles plus original story documentation. The current handoff supersedes older marker-style and duration descriptions.
 - `work/staedean-cast/assets/`: cast model sheets, original stills and logo assets.
 - `work/full-mount/`, `work/full-door/`: approved long-film edits and continuity/sound work.
 - `work/bridge-test/`: approved short Bridge gag.

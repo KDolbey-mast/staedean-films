@@ -2,6 +2,8 @@
 
 The look, the timing and the sound that make these films feel like one series. Read this before making anything new with the cast.
 
+**Current authority:** follow [CAST.md](CAST.md) for character roles and casting, and [the current handoff](../../../docs/CURRENT_HANDOFF.md) for the accepted clean ink-and-wash look (`rb.STYLE='wash'`), selected cuts and durations. The marker description below records the original look, not a direction to revert it.
+
 ## Look
 
 Inspired by '90s and 2000s European TV cartoons: simple drawings, deadpan jokes, felt-tip colour.
@@ -55,6 +57,11 @@ All sound is made by code (`src/sfx.py`), no samples.
 - Every story should be readable with the sound off.
 
 ## Continuity checklist for any new shot
+
+- [ ] Each character has a story reason and follows the canonical profile
+- [ ] Ninja retains his silent-enemy role, with no automatic hero/solution substitution
+- [ ] Sheep omitted unless a specific gag and setting justify it
+- [ ] Team remain well-intentioned, customer remains a customer
 
 - [ ] Pupils visible
 - [ ] Bulb in the PM's left hand, paperwork on the other side

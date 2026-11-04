@@ -1,12 +1,12 @@
 # Start here: current animation handoff
 
-Prepared 2026-11-03 for Ken and Claude. Read this before continuing the animations.
+Prepared 2026-11-03 for Ken and Claude; character direction clarified 2026-11-04. Read the [canonical cast and casting rules](../work/staedean-cast/docs/CAST.md) before drafting a story, then use this handoff for current cuts and source entry points.
 
 ## The collaboration
 
 Ken likes quick, concrete animation previews, followed by small visual corrections. Keep the established cast and colouring. Make the requested edit and show a playable movie. Explain changes in plain language. He is an inexperienced programmer; keep implementation clear and add useful purpose/connection comments.
 
-The new format is generally a 12–15-second visual gag: setup, payoff, short reaction. Ken explicitly allowed The Priority to extend to 20 seconds; its approved cut is 19.5 seconds. The Handoff is an 18-second first preview, not yet approved. Do not assume every new gag should expand into a longer film.
+The earlier gag format was generally 12–15 seconds: setup, payoff, short reaction. Ken's current new-short direction is 15–30 seconds; follow the individual brief. Ken explicitly allowed The Priority to extend to 20 seconds; its approved cut is 19.5 seconds. The Handoff is an 18-second first preview, not yet approved. Do not assume every new gag should expand into a longer film.
 
 ## Creative decisions to preserve
 
@@ -15,7 +15,9 @@ The new format is generally a 12–15-second visual gag: setup, payoff, short re
 - Individual walking rhythms, arm swings, readable gestures, expressions and comic pauses matter.
 - The PM need not lead every gag. Customer Success (ginger bob, headset, teal top) leads The Handoff.
 - The system and helpful overcomplication are the joke; the team are not villains.
-- The ninja is a friendly charcoal-clad figure who quietly delivers what the customer needs. Use the existing ninja drawing rather than inventing another design.
+- The ninja is the **silent enemy**, not a helpful STAEDEAN hero or automatic rescuer. Reuse the charcoal-clad design, but follow the [ninja profile](../work/staedean-cast/docs/CAST.md#the-ninja) for casting. Existing deliveries do not establish a team allegiance; future stories must make his opposing role clear.
+- The sheep is an occasional humorous character/Easter egg, not a universal mascot. Include it only when the gag and setting earn the appearance; follow the [sheep profile](../work/staedean-cast/docs/CAST.md#the-sheep).
+- Ken's current direction for new shorts is 15–30 seconds. This does not change the selected cuts below; agree the story's length from its brief rather than copying historical runtimes.
 
 ## Current entry points and review state
 
@@ -38,7 +40,7 @@ Latest source: `work/the-priority-reaction/director.py`. It imports `work/the-pr
 - Six bulbs, each tagged PRIORITY 1; desk says GOOD IDEAS.
 - Glow grows so bright it almost obscures the team.
 - PM puts on sunglasses.
-- Cutaway: ninja gives the customer the exact bulb. Ninja/customer are larger and nearer the bottom of the frame, separated in depth from the desk team.
+- Cutaway: ninja gives the customer the exact bulb. This recorded delivery is consistent with the team being outmanoeuvred; it is not permission to cast him as their helper. Ninja/customer are larger and nearer the bottom of the frame, separated in depth from the desk team.
 - The team must remain recognisable through the glow in that cutaway. The stray low cloud was removed and group opacity corrected.
 - Final 4.5 seconds: return to the desk, PM lowers sunglasses, staggered awkward sideways glances, then everyone looks down. Faces must stay readable here.
 
@@ -46,7 +48,7 @@ Latest source: `work/the-priority-reaction/director.py`. It imports `work/the-pr
 
 Source: `work/the-handoff/director.py`. Five shots: receive (3 s), chain (6 s), empty (3 s), ninja delivery (3 s), Customer Success reaction (3 s).
 
-The customer passes her a tiny parcel with a teal ribbon and red seal. It gathers forms and packaging through CS, QA, PM, Maker and Planning. The grand box is empty. Ninja delivers the original tiny parcel; she looks across/back and lowers her headset mic. This is a first draft for creative review. Do not describe it as final approval.
+The customer passes her a tiny parcel with a teal ribbon and red seal. It gathers forms and packaging through CS, QA, PM, Maker and Planning. The grand box is empty. Ninja delivers the original tiny parcel; she looks across/back and lowers her headset mic. This is a first draft for creative review. Do not describe it as final approval. The ninja's delivery must not be read as membership of the STAEDEAN team; the current character guide governs any next treatment.
 
 ### Long films
 

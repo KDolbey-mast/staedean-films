@@ -1,5 +1,7 @@
 # STAEDEAN CAST
 
+Start with the [canonical character profiles and casting rules](docs/CAST.md) and the repository's [current handoff](../../docs/CURRENT_HANDOFF.md). The ninja is the silent enemy; the sheep is an occasional gag, not a universal mascot. The original build/story overview below is historical where its look, durations or selected cuts differ from the current handoff.
+
 The characters, sets, look and sound behind STAEDEAN's animated shorts, as code. Every drawing in the films comes from this repo, so the cast stays the same from shot to shot, film to film, and between people and AI models working on it.
 
 ![The cast](assets/stills/film2/S1_now_open.jpg)
