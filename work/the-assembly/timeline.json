@@ -1,0 +1,68 @@
+[
+  {
+    "shot": "approved",
+    "start": 0,
+    "duration": 1,
+    "frames": 12
+  },
+  {
+    "shot": "call",
+    "start": 1,
+    "duration": 3,
+    "frames": 36
+  },
+  {
+    "shot": "maker",
+    "start": 4,
+    "duration": 1.5,
+    "frames": 18
+  },
+  {
+    "shot": "customer_success",
+    "start": 5.5,
+    "duration": 1.5,
+    "frames": 18
+  },
+  {
+    "shot": "qa",
+    "start": 7.0,
+    "duration": 2,
+    "frames": 24
+  },
+  {
+    "shot": "approach",
+    "start": 9.0,
+    "duration": 3,
+    "frames": 36
+  },
+  {
+    "shot": "heroic",
+    "start": 12.0,
+    "duration": 3,
+    "frames": 36
+  },
+  {
+    "shot": "office_cut",
+    "start": 15.0,
+    "duration": 1,
+    "frames": 12
+  },
+  {
+    "shot": "question",
+    "start": 16.0,
+    "duration": 1.5,
+    "frames": 18
+  },
+  {
+    "shot": "reaction",
+    "start": 17.5,
+    "duration": 1.5,
+    "frames": 18
+  },
+  {
+    "shot": "card",
+    "start": 19.0,
+    "duration": 1,
+    "frames": 12
+  }
+]
