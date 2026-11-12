@@ -1,9 +1,10 @@
 """The Assembly: a 20-second parody of an absurdly epic team recruitment.
 
 New short. Does not alter or import approved film edit chains.
-Keep the canonical PM, Maker, Customer Success and QA; no ninja or sheep.
+Keep the canonical PM, Maker, Customer Success and QA. Ninja appears as an intentional, suspicious impostor in the lineup; no sheep.
 """
 import math
+import importlib.util
 import os
 import sys
 from pathlib import Path
@@ -26,6 +27,11 @@ k = film.ramp
 FULL = (0, 0, 1920, 1080)
 INK = "#2e2520"
 MOUNTAIN = sets.big_mountain(show_sign=False).removeprefix(sets.sky())
+# Reuse the existing ninja rig. This one-film impostor gag does not
+# reclassify the antagonist as a permanent STAEDEAN teammate.
+nspec=importlib.util.spec_from_file_location("assembly_ninja",ROOT/"work/the-priority-ninja/director.py")
+nlib=importlib.util.module_from_spec(nspec)
+nspec.loader.exec_module(nlib)
 
 
 def finish(art, n, view=FULL):
@@ -168,6 +174,12 @@ def team(t,n,heroic=False):
     art+=cast.pm(1120+drift/3,y,s=.64,pose="stand" if heroic else "walk",
                  phase=t*5,mood="delighted",bulb=1.0)
     art+=official_full("qa",1520+drift,y,.60,look=(-.3,-.1))
+    # The villain has sneaked into the heroic shot. His distinctive
+    # black outfit remains intact; the question mark sells the irony.
+    if heroic or t > 1.4:
+        art+=nlib.ninja(1770,957,0,(1850,680))
+        if heroic and t > .8:
+            art+=f.text(1750,300,"?",size=90,fill="#343944")
     # Suspiciously elaborate theatrical wind lines; no imported Marvel motifs.
     for i in range(4):
         xx=100+i*495+(45*math.sin(t*2+i))
