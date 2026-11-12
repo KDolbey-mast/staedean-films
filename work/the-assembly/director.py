@@ -39,9 +39,7 @@ def group(art, x, y, scale=1, rot=0):
 def official_full(role, x, y, scale=.6, look=(0, .1), mouth="smile", tilt=0, mic=0):
     """Existing canonical official upper-body rig plus matching standing legs."""
     hip = y - 370 * scale
-    art = group(f.legs("stand"), x, hip, scale) if False else (
-        f'<g transform="translate({x},{hip}) scale({scale}) translate(0,-330)">{f.legs("stand")}</g>'
-    )
+    art = f'<g transform="translate({x},{hip}) scale({scale}) translate(0,-330)">{f.legs("stand")}</g>'
     art += props.official(
         x, hip, scale, cast.OFFICIALS[role], mouth=mouth, look=look,
         brows="puzzled" if mouth == "flat" else "neutral",
