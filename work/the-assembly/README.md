@@ -32,3 +32,7 @@ The current end line is **"So... do we have a budget?"**, followed by the establ
 ## Phone-call revision
 
 The approval stamp now runs 0–1 seconds, followed by a 1–4-second PM phone close-up captioned “I’m putting together a team.” The existing `sfx.mumble` voice supplies the gobbledygook. `PHONE_PHRASES` in `director.py` supplies the phrase timing to both mouth animation and `build.py` audio, so changes remain aligned. Maker and Customer Success introductions are 1.5 seconds each; all shots from QA onward retain their previous times, including the globe outro at 19–20 seconds.
+
+## Assembly bulbs and readable props (v4)
+
+All five figures hold an illuminated bulb during the assembly: PM, Maker, Customer Success, QA, and the ninja impostor. `team()` uses the existing bulb and carrying-arm helpers; `official_full(carry_idea=True)` enables the established official carrying pose without editing shared rigs. The PM’s phone has a rounded smartphone silhouette, call screen, speaker and hang-up control. The Maker’s hammer has a steel striking face, split claw and wooden handle. Both props remain in their character’s local coordinate system to preserve contact through movement. Timing, sound and the globe outro are unchanged.

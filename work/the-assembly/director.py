@@ -42,14 +42,15 @@ def group(art, x, y, scale=1, rot=0):
     return f'<g transform="translate({x},{y}) rotate({rot}) scale({scale})">{art}</g>'
 
 
-def official_full(role, x, y, scale=.6, look=(0, .1), mouth="smile", tilt=0, mic=0, arm="rest"):
+def official_full(role, x, y, scale=.6, look=(0, .1), mouth="smile", tilt=0, mic=0, arm="rest", carry_idea=False):
     """Existing canonical official upper-body rig plus matching standing legs."""
     hip = y - 370 * scale
     art = f'<g transform="translate({x},{hip}) scale({scale}) translate(0,-330)">{f.legs("stand")}</g>'
     art += props.official(
         x, hip, scale, cast.OFFICIALS[role], mouth=mouth, look=look,
         brows="puzzled" if mouth == "flat" else "neutral",
-        head_tilt=tilt, mic_angle=mic, arm=arm
+        head_tilt=tilt, mic_angle=mic,
+        arm="walk" if carry_idea else arm, carry_idea=carry_idea, swing=0
     )
     return art
 
@@ -128,10 +129,21 @@ def phone_call(t,n):
     arms = [(f.SHL,(-225,120),(-145,-35),"fist"),
             (f.SHR,(180,230),(120,330),"rest",True)]
     # Draw the phone in the PM's own local coordinates to keep it at his ear.
-    phone = (f.washed("M -165,-155 L -115,-155 L -115,5 L -165,5 Z",
+    # A rounded smartphone, with a visible lit call screen, speaker and button.
+    # Its wider silhouette distinguishes it from the previous narrow black slab.
+    phone = (f.washed("M -169,-153 Q -181,-153 -181,-140 L -181,-5 Q -181,8 -169,8 "
+                       "L -111,8 Q -99,8 -99,-5 L -99,-140 Q -99,-153 -111,-153 Z",
                        "#343944",sw=4,off=(2,1))
-             + f.path("M -153,-137 L -127,-137",sw=3,stroke="#a7bbc3")
-             + f.path("M -151,-12 L -129,-12",sw=3,stroke="#a7bbc3"))
+             + f.washed("M -172,-126 L -108,-126 L -108,-20 L -172,-20 Z",
+                         "#bedee5",sw=2,off=(1,1))
+             + f.path("M -151,-140 L -129,-140",sw=4,stroke="#b7c7ce")
+             + '<circle cx="-140" cy="-98" r="11" fill="#507c8b"/>'
+             + f.washed("M -160,-69 Q -159,-84 -140,-84 Q -121,-84 -120,-69 Z",
+                         "#507c8b",sw=2,off=(1,1))
+             + '<circle cx="-140" cy="-43" r="12" fill="#b44639"/>'
+             + f.path("M -147,-41 Q -140,-49 -133,-41",sw=3,stroke="#fffaf0")
+             + '<circle cx="-140" cy="-6" r="5" fill="none" stroke="#b7c7ce" stroke-width="2"/>'
+             + f.path("M -96,-112 L -96,-85",sw=3))
     art += f.pm_full(580,1570,1.6,arms=arms,front=phone,
                       mouth=mouth,look=(.6,-.1),brows="raised")
     art += f.bubble(1325,400,1050,230,(760,430),
@@ -145,9 +157,21 @@ def maker(t,n):
     hand_y=k(t,[(0,170),(.9,360),(1.4,370)])
     arms=[(f.SHL,(-170,230),(-110,330),"rest"),
           (f.SHR,(230,200),(300,hand_y),"fist",True)]
-    hammer=(f.path(f"M 300,{hand_y-150} L 300,{hand_y+75}",sw=21,stroke="#9c6b46")
-            +f.washed(f"M 215,{hand_y-195} L 385,{hand_y-195} L 385,{hand_y-145} L 215,{hand_y-145} Z",
-                       "#68757a",off=(3,2)))
+    # Distinct claw-hammer silhouette: wood handle, flat striking face and split claw.
+    # All geometry is local to the gripping hand, so it cannot drift during motion.
+    hammer = group(
+        f.washed("M -12,-163 L 12,-163 L 15,63 Q 0,76 -15,63 Z",
+                  "#ae774b",sw=3,off=(2,1))
+        + f.path("M -3,-140 L 2,50",sw=3,stroke="#d4a677")
+        + f.washed("M -39,-188 L -16,-188 L -10,-178 L 24,-178 "
+                    "Q 59,-193 85,-153 L 47,-165 L 71,-139 "
+                    "Q 42,-140 22,-156 L -10,-156 L -16,-146 L -39,-146 Z",
+                    "#68757a",sw=4,off=(2,1))
+        + f.washed("M -52,-194 L -34,-194 L -34,-140 L -52,-140 Z",
+                    "#aab8bd",sw=3,off=(1,1))
+        + f.path("M -14,-174 L 22,-174 Q 45,-183 58,-170",sw=3,stroke="#d6dfe0"),
+        300,hand_y)
+
     art += f.maker(960,985,.88,arms=arms,front=hammer,face=dict(
         look=(.6,-.1),brows="happy",mouth="flat",head_rot=k(t,[(0,-7),(1,3)])
     ))
@@ -182,15 +206,20 @@ def team(t,n,heroic=False):
     drift=100*(1-march)
     art+=f.maker(415-drift,y,.56,
                  face=dict(look=(1,-.2),brows="happy",mouth="smile"),
-                 phase=None if heroic else t*5)
-    art+=official_full("customer success",780-drift/2,y,.60,look=(.2,-.1),tilt=3)
+                 phase=None if heroic else t*5,
+                 arms=[(f.SHL,(-170,230),(-110,330),"rest"),
+                       (f.SHR,(200,190),(190,110),"cup",True)],
+                 front=f.bulb(190,58,s=1,b=.7,rays=4))
+    art+=official_full("customer success",780-drift/2,y,.60,look=(.2,-.1),tilt=3,carry_idea=True)
     art+=cast.pm(1120+drift/3,y,s=.64,pose="stand" if heroic else "walk",
                  phase=t*5,mood="delighted",bulb=1.0)
-    art+=official_full("qa",1520+drift,y,.60,look=(-.3,-.1))
+    art+=official_full("qa",1520+drift,y,.60,look=(-.3,-.1),carry_idea=True)
     # The villain has sneaked into the heroic shot. His distinctive
     # black outfit remains intact; the question mark sells the irony.
     if heroic or t > 1.4:
         art+=nlib.ninja(1770,957,0,(1850,680))
+        # The impostor copies the team: his bulb base meets the existing hand.
+        art+=f.bulb(1850,680-56*.6,s=.6,b=.7,rays=4)
         if heroic and t > .8:
             art+=f.text(1750,300,"?",size=90,fill="#343944")
     # Suspiciously elaborate theatrical wind lines; no imported Marvel motifs.

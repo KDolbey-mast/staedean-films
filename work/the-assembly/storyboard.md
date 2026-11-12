@@ -8,7 +8,7 @@
 Our innovation team gets the green light, assembles like an absurdly important superhero squad, then discovers that assembling a team and running one are two different things.
 
 ## Story without sound
-A huge APPROVED stamp lands. The PM phones a colleague: “I’m putting together a team,” conveyed by a caption and gobbledygook speech. Maker, Customer Success and QA respond in rapid theatrical shots. They stand together in an iconic windswept mountain tableau under a glowing idea. Hard cut to a cramped meeting table and a hand raised to ask about budget. The group looks at the PM, who loses his triumphant expression.
+A huge APPROVED stamp lands. The PM phones a colleague: “I’m putting together a team,” conveyed by a caption and gobbledygook speech. Maker, Customer Success and QA respond in rapid theatrical shots. They stand together in an iconic windswept mountain tableau, each holding a glowing idea bulb—including the ninja impostor. Hard cut to a cramped meeting table and a hand raised to ask about budget. The group looks at the PM, who loses his triumphant expression.
 
 ## Beat sheet (20 seconds exactly)
 
@@ -20,7 +20,7 @@ A huge APPROVED stamp lands. The PM phones a colleague: “I’m putting togethe
 | 5.5–7.0 | Customer Success flips headset mic down like fighter-pilot visor. | Radio chirp, heroic sting |
 | 7.0–9.0 | QA adjusts glasses, glare flashes across lenses. | Tiny metallic 'shing' |
 | 9.0–12.0 | Silhouettes approach through theatrical *smoke* (not dense wash filter), Mount STAEDEAN in distance; PM and Maker join the others. | Ridiculously epic original orchestral swell |
-| 12.0–15.0 | Freeze-like heroic tableau: PM front, bright idea bulb; the group strikes earnest poses, holding a beat too long. | Music reaches ridiculous peak |
+| 12.0–15.0 | Freeze-like heroic tableau: PM front; all five figures hold glowing idea bulbs and strike earnest poses, holding a beat too long. | Music reaches ridiculous peak |
 | 15.0–16.0 | Smash cut to painfully ordinary, too-small office table, all three teammates plus PM squeezed into frame. | Music cuts dead; chair squeak |
 | 16.0–17.5 | Hand goes up. Caption/speech balloon: 'So... do we have a budget?' | One mundane voice, optional; readable silently |
 | 17.5–19.0 | Everyone very slowly turns to look at PM. PM's expression collapses. | Clock tick, awkward silence |

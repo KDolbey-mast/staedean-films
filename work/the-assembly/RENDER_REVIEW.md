@@ -8,16 +8,24 @@ Status: rendered first preview, awaiting Ken's creative review. Not an approved 
 - The-Assembly-v1.mp4: 1920 × 1080, 16:9, exactly 20.00 seconds.
 - 240 source drawings at 12 fps, encoded as 480 frames at 24 fps.
 - H.264, yuv420p, AAC mono at 44.1 kHz, fast-start MP4.
-- Size: 3,771,202 bytes.
-- SHA-256: `8ea37ce17e90426c5eb4fc6c49d4262d57ad87fff76f5b29226a6da21f71d2f3`.
+- Size: 3,883,626 bytes.
+- SHA-256: `19e06f0cf117273ba1bed50de4313e21f2235e23b817ce2b6a11fa2b0288c267`.
 
-## Current phone-call revision (v3)
+## Current bulbs and props revision (v4)
+
+Ken requested a bulb for everyone assembling, and clearer cellphone and hammer designs. All five lineup figures now hold a lit bulb: Maker, Customer Success, PM, QA and ninja. Bulbs remain attached to the carrying hands in approach and tableau shots, with restrained additional glow so faces remain readable. The ninja copies the ensemble as part of the approved impostor gag.
+
+The phone is now a wider rounded smartphone with a lit call screen, contact icon, red hang-up button, earpiece and home button. The hammer now has a flat striking face, split claw, metal head and wooden handle. Both props use local character coordinates to retain hand contact. Changes are confined to the Assembly director and documentation; shared rigs and older films are untouched.
+
+The current download is **The-Assembly-v4.mp4**. Inspected proof frames for the phone, hammer, approach and heroic tableau. Rerendered the four changed shots and decoded the complete movie successfully: 480 frames, 1920 × 1080, 24 fps, 20.00 seconds, H.264/AAC. Sound, gobbledygook, shot timing, budget ending and globe outro remain unchanged. For future edits, `team()` controls the five bulbs, `phone_call()` draws the smartphone, and `maker()` draws the claw hammer. `official_full(carry_idea=True)` selects the established carrying pose only for this film.
+
+## Phone-call revision (v3)
 
 Ken requested a close-up of the product guy saying “I'm putting together a team” in the house gobbledygook language. The PM now holds a phone at his ear in a three-second close-up (1–4 seconds), with the exact caption and animated mouth shapes. The existing `sfx.mumble(..., phone=True)` synthesizer supplies four nonsense phrases. `PHONE_PHRASES` in `director.py` is shared with `build.py`, aligning phrase windows and mouth motion. No external voice service or new dependency is involved.
 
 The phone call replaces the button shot. The approval stamp is now one second, and Maker/Customer Success introductions are 1.5 seconds each. QA and every later shot keep their previous times, so the ninja, budget reaction and globe outro are preserved. The riser is quieter under the call; the recruitment hits move to match the revised cuts.
 
-The current download is **The-Assembly-v3.mp4**. All changed shots were rerendered, the phone close-up was visually inspected, and the full MP4 decoded at 480 frames / 20.00 seconds. Speech windows measure approximately -19 to -21 dBFS RMS in the source mix; the encoded mix remains below clipping. This is technical audio verification; Ken should review the gobbledygook's performance by listening. The unchanged renderer output basename remains The-Assembly-v1.mp4 inside the repo.
+The v3 download was **The-Assembly-v3.mp4**. All changed shots were rerendered, the phone close-up was visually inspected, and the full MP4 decoded at 480 frames / 20.00 seconds. Speech windows measure approximately -19 to -21 dBFS RMS in the source mix; the encoded mix remains below clipping. This is technical audio verification; Ken should review the gobbledygook's performance by listening. The unchanged renderer output basename remains The-Assembly-v1.mp4 inside the repo.
 
 ## Globe outro correction
 
