@@ -116,25 +116,26 @@ def approved(t, n):
     return finish(art,n)
 
 
-def button(t,n):
-    art = office()+'<g transform="translate(-400,0)">'
-    art += f.washed("M 1070,640 L 1580,640 L 1580,930 L 1070,930 Z", "#888f94", off=(4,3))
-    art += f.washed("M 1160,676 L 1490,676 L 1490,805 L 1160,805 Z", "#e8e3d6", off=(2,1))
-    art += f.text(1190,760,"ASSEMBLE",size=33)
-    push=k(t,[(0,0),(.7,0),(.9,1),(1.08,0)])
-    art += f.washed(f"M 1200,{833+push*15} Q 1325,{800+push*15} 1450,{833+push*15} "
-                    f"L 1450,{870+push*13} Q 1325,{902+push*13} 1200,{870+push*13} Z",
-                    "#b44639", off=(4,2))
-    art+='</g>'
-    # Pose the existing PM rig so his free hand actually presses the button.
-    # Local rig coordinates use neck origin and a floor at y=700.
-    reach=k(t,[(0,0),(.5,0),(.9,1),(1.08,1),(1.4,0)])
-    hand=( -110-102*reach, 330+(530+push*22-330)*reach )
-    arms=[(f.SHL,(-170,300),hand,"rest"),
-          (f.SHR,(200,190),(190,110),"cup",True)]
-    face=cast.PM_MOODS["surprised" if t<.7 else "delighted"]
-    art+=f.pm_full(1067,970,.67,arms=arms,
-                   front=cast.rig_bulb(190,58,s=1,b=1.0,rays=7),**face)
+# Shared with build.py so speech sounds and mouth movement use the same beats.
+PHONE_PHRASES = ((.25,.40,155), (.80,.60,170), (1.60,.45,160), (2.20,.50,140))
+
+
+def phone_call(t,n):
+    art = office()
+    speaking = any(start <= t < start+duration for start,duration,_ in PHONE_PHRASES)
+    # Alternate open mouth shapes within each phrase, resting between phrases.
+    mouth = ("talk" if n % 3 else "o") if speaking else "smile"
+    arms = [(f.SHL,(-225,120),(-145,-35),"fist"),
+            (f.SHR,(180,230),(120,330),"rest",True)]
+    # Draw the phone in the PM's own local coordinates to keep it at his ear.
+    phone = (f.washed("M -165,-155 L -115,-155 L -115,5 L -165,5 Z",
+                       "#343944",sw=4,off=(2,1))
+             + f.path("M -153,-137 L -127,-137",sw=3,stroke="#a7bbc3")
+             + f.path("M -151,-12 L -129,-12",sw=3,stroke="#a7bbc3"))
+    art += f.pm_full(580,1570,1.6,arms=arms,front=phone,
+                      mouth=mouth,look=(.6,-.1),brows="raised")
+    art += f.bubble(1325,400,1050,230,(760,430),
+                    words="I'm putting together a team",size=49)
     return finish(art,n)
 
 
@@ -232,10 +233,10 @@ def card(t,n):
 
 
 SHOTS=[
-    dict(name="approved",dur=1.5,draw=approved,cues=[]),
-    dict(name="call",dur=1.5,draw=button,cues=[]),
-    dict(name="maker",dur=2,draw=maker,cues=[]),
-    dict(name="customer_success",dur=2,draw=customer_success,cues=[]),
+    dict(name="approved",dur=1,draw=approved,cues=[]),
+    dict(name="call",dur=3,draw=phone_call,cues=[]),
+    dict(name="maker",dur=1.5,draw=maker,cues=[]),
+    dict(name="customer_success",dur=1.5,draw=customer_success,cues=[]),
     dict(name="qa",dur=2,draw=qa,cues=[]),
     dict(name="approach",dur=3,draw=team,cues=[]),
     dict(name="heroic",dur=3,draw=lambda t,n:team(t,n,heroic=True),cues=[]),

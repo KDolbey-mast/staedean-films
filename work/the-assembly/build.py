@@ -92,15 +92,19 @@ def soundtrack():
 
     # The absurd overconfident recruiting score grows then stops DEAD at 15s.
     add(.35,sound.stamp(),.45)
-    add(1.6,sound.riser(1.35),.16)
-    add(2.75,sound.pop(),.13)
-    for at in (3,5,7,9.5,12):
+    add(1.1,sound.riser(2.8),.055)
+    for at in (4,5.5,7,9.5,12):
         add(at,sound.chord_voices([45,52,57,60],1.7,attack=.07,release=1.15,kind="brass"),.13)
         add(at,sound.sub_boom(1.0),.075)
     add(9.2,sound.mountain_hit(),.16)
     add(12.5,sound.riser(2.3),.11)
     # The score disappears on the hard office cut.
     audio[round(15*sr):]=0
+    # Add dialogue after the score cut logic. The existing house voice is
+    # intentional nonsense; only the on-screen caption carries actual words.
+    call_start = next(start for start,shot in d.timeline()[0] if shot["name"] == "call")
+    for start,duration,pitch in d.PHONE_PHRASES:
+        add(call_start+start,sound.mumble(duration,f0=pitch,rate=6,phone=True),.45)
     add(15.12,sound.creak(.6),.18)
     add(17.55,sound.ticking(1.2,rate=1.4),.08)
     add(19.05,sound.pop(),.06)

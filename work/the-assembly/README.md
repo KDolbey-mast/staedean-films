@@ -28,3 +28,7 @@ To rerender a corrected shot, delete only its `work/the-assembly/frames/<shot>` 
 The approved decision should feel genuinely exciting. The dramatic music and hero poses are knowingly ridiculous. The team are nice people; the budget joke is about the practical gap between approval and mobilisation, not about incompetence. No Marvel audio, costumes or visual trademarks are reproduced.
 
 The current end line is **"So... do we have a budget?"**, followed by the established **STAEDEAN logo and nine glowing globes**, with **INNOVATION · ASSEMBLING NOW.** below. Both are editable on review. Do not change canonical character profiles or declare this cut approved without Ken's review.
+
+## Phone-call revision
+
+The approval stamp now runs 0–1 seconds, followed by a 1–4-second PM phone close-up captioned “I’m putting together a team.” The existing `sfx.mumble` voice supplies the gobbledygook. `PHONE_PHRASES` in `director.py` supplies the phrase timing to both mouth animation and `build.py` audio, so changes remain aligned. Maker and Customer Success introductions are 1.5 seconds each; all shots from QA onward retain their previous times, including the globe outro at 19–20 seconds.

@@ -8,16 +8,16 @@
 Our innovation team gets the green light, assembles like an absurdly important superhero squad, then discovers that assembling a team and running one are two different things.
 
 ## Story without sound
-A huge APPROVED stamp lands. The PM presses an ASSEMBLE button. Maker, Customer Success and QA respond in rapid theatrical shots. They stand together in an iconic windswept mountain tableau under a glowing idea. Hard cut to a cramped meeting table and a hand raised to ask about budget. The group looks at the PM, who loses his triumphant expression.
+A huge APPROVED stamp lands. The PM phones a colleague: “I’m putting together a team,” conveyed by a caption and gobbledygook speech. Maker, Customer Success and QA respond in rapid theatrical shots. They stand together in an iconic windswept mountain tableau under a glowing idea. Hard cut to a cramped meeting table and a hand raised to ask about budget. The group looks at the PM, who loses his triumphant expression.
 
 ## Beat sheet (20 seconds exactly)
 
 | Time | Visual / action | Audio / timing |
 |---|---|---|
-| 0.0–1.5 | Extreme close-up: APPROVED stamped across a document. | Exaggerated rubber-stamp THUNK; dramatic low chord |
-| 1.5–3.0 | PM, usual blue shirt/orange tie, looks up, bright idea bulb; presses red ASSEMBLE button. | Rising brass, mechanical click |
-| 3.0–5.0 | Maker lowers a hammer as if holstering a legendary weapon; determined stare. | One absurdly heroic percussion hit |
-| 5.0–7.0 | Customer Success flips headset mic down like fighter-pilot visor. | Radio chirp, heroic sting |
+| 0.0–1.0 | Extreme close-up: APPROVED stamped across a document. | Exaggerated rubber-stamp THUNK; dramatic low chord |
+| 1.0–4.0 | Close-up of the PM in his blue shirt/orange tie, phone at his ear. Caption: “I’m putting together a team.” Animated speaking mouth. | Established synthesized gobbledygook voice in four phrases; quiet riser underneath |
+| 4.0–5.5 | Maker lowers a hammer as if holstering a legendary weapon; determined stare. | One absurdly heroic percussion hit |
+| 5.5–7.0 | Customer Success flips headset mic down like fighter-pilot visor. | Radio chirp, heroic sting |
 | 7.0–9.0 | QA adjusts glasses, glare flashes across lenses. | Tiny metallic 'shing' |
 | 9.0–12.0 | Silhouettes approach through theatrical *smoke* (not dense wash filter), Mount STAEDEAN in distance; PM and Maker join the others. | Ridiculously epic original orchestral swell |
 | 12.0–15.0 | Freeze-like heroic tableau: PM front, bright idea bulb; the group strikes earnest poses, holding a beat too long. | Music reaches ridiculous peak |

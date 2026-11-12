@@ -2,26 +2,26 @@
   {
     "shot": "approved",
     "start": 0,
-    "duration": 1.5,
-    "frames": 18
+    "duration": 1,
+    "frames": 12
   },
   {
     "shot": "call",
-    "start": 1.5,
+    "start": 1,
+    "duration": 3,
+    "frames": 36
+  },
+  {
+    "shot": "maker",
+    "start": 4,
     "duration": 1.5,
     "frames": 18
   },
   {
-    "shot": "maker",
-    "start": 3.0,
-    "duration": 2,
-    "frames": 24
-  },
-  {
     "shot": "customer_success",
-    "start": 5.0,
-    "duration": 2,
-    "frames": 24
+    "start": 5.5,
+    "duration": 1.5,
+    "frames": 18
   },
   {
     "shot": "qa",

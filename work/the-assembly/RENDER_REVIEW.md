@@ -8,8 +8,16 @@ Status: rendered first preview, awaiting Ken's creative review. Not an approved 
 - The-Assembly-v1.mp4: 1920 × 1080, 16:9, exactly 20.00 seconds.
 - 240 source drawings at 12 fps, encoded as 480 frames at 24 fps.
 - H.264, yuv420p, AAC mono at 44.1 kHz, fast-start MP4.
-- Size: 3,709,766 bytes.
-- SHA-256: `88ad5d941f36631dd86b73457af8b5104f05ff6287d9955e13e4c5b50f026552`.
+- Size: 3,771,202 bytes.
+- SHA-256: `8ea37ce17e90426c5eb4fc6c49d4262d57ad87fff76f5b29226a6da21f71d2f3`.
+
+## Current phone-call revision (v3)
+
+Ken requested a close-up of the product guy saying “I'm putting together a team” in the house gobbledygook language. The PM now holds a phone at his ear in a three-second close-up (1–4 seconds), with the exact caption and animated mouth shapes. The existing `sfx.mumble(..., phone=True)` synthesizer supplies four nonsense phrases. `PHONE_PHRASES` in `director.py` is shared with `build.py`, aligning phrase windows and mouth motion. No external voice service or new dependency is involved.
+
+The phone call replaces the button shot. The approval stamp is now one second, and Maker/Customer Success introductions are 1.5 seconds each. QA and every later shot keep their previous times, so the ninja, budget reaction and globe outro are preserved. The riser is quieter under the call; the recruitment hits move to match the revised cuts.
+
+The current download is **The-Assembly-v3.mp4**. All changed shots were rerendered, the phone close-up was visually inspected, and the full MP4 decoded at 480 frames / 20.00 seconds. Speech windows measure approximately -19 to -21 dBFS RMS in the source mix; the encoded mix remains below clipping. This is technical audio verification; Ken should review the gobbledygook's performance by listening. The unchanged renderer output basename remains The-Assembly-v1.mp4 inside the repo.
 
 ## Globe outro correction
 
@@ -17,11 +25,11 @@ Ken requested the familiar globe outro. The final second now reuses `film2.py`�
 
 ## What changed and why
 
-The Maker close-up originally cut off the beanie and face; the camera now includes them. His hammer now follows his hand instead of floating independently. The PM visibly reaches for the ASSEMBLE button. Customer Success raises her hand for the budget line. Maker and Customer Success look right toward the PM, while QA looks left. The budget caption remains through the reaction, and its tail stops above Customer Success's face.
+The Maker close-up originally cut off the beanie and face; the camera now includes them. His hammer now follows his hand instead of floating independently. The earlier button-contact fix is superseded by the requested phone close-up. Customer Success raises her hand for the budget line. Maker and Customer Success look right toward the PM, while QA looks left. The budget caption remains through the reaction, and its tail stops above Customer Success's face.
 
 The same PM, Maker, Customer Success, QA and charcoal ninja rigs are reused. The ninja enters the approach and remains in the hero tableau, with a question mark reinforcing the impostor joke. He is absent from the office team. Ken explicitly approved this one-film cameo; it does not make him a canonical teammate. No sheep is inserted.
 
-Only Assembly drawing code and documentation were changed. Shared rigs, older films, sound mixes and main were not edited. The existing Assembly synthesized soundtrack is retained; there is no spoken dialogue.
+Only Assembly drawing code and documentation were changed. Shared rigs, older films, sound mixes and main were not edited. The soundtrack remains synthesized, with the new gobbledygook phone speech and no intelligible spoken dialogue.
 
 ## Verification performed
 
