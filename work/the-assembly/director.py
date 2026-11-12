@@ -42,14 +42,14 @@ def group(art, x, y, scale=1, rot=0):
     return f'<g transform="translate({x},{y}) rotate({rot}) scale({scale})">{art}</g>'
 
 
-def official_full(role, x, y, scale=.6, look=(0, .1), mouth="smile", tilt=0, mic=0):
+def official_full(role, x, y, scale=.6, look=(0, .1), mouth="smile", tilt=0, mic=0, arm="rest"):
     """Existing canonical official upper-body rig plus matching standing legs."""
     hip = y - 370 * scale
     art = f'<g transform="translate({x},{hip}) scale({scale}) translate(0,-330)">{f.legs("stand")}</g>'
     art += props.official(
         x, hip, scale, cast.OFFICIALS[role], mouth=mouth, look=look,
         brows="puzzled" if mouth == "flat" else "neutral",
-        head_tilt=tilt, mic_angle=mic
+        head_tilt=tilt, mic_angle=mic, arm=arm
     )
     return art
 
@@ -84,18 +84,19 @@ def small_table():
     return art
 
 
-def cramped_team(t, reaction=False):
+def cramped_team(t, reaction=False, asking=False):
     """Four original cast members; deliberately inadequate space, no invented identities."""
-    look = (-1, .2) if reaction else (0, .1)
+    look = (1, .2) if reaction else (0, .1)
     mood = "weary" if reaction else "hopeful"
     mouths = "flat" if reaction else "smile"
     art = f.maker(715, 930, .47, face=dict(look=look, brows="quizzical" if reaction else "happy",
                                          mouth=mouths, head_rot=-2 if reaction else 0))
     art += official_full("customer success", 870, 930, .51,
-                         look=look, mouth=mouths, tilt=-6 if reaction else 0)
+                         look=look, mouth=mouths, tilt=-6 if reaction else 0,
+                         arm="finger_up" if asking else "rest")
     art += cast.pm(1035, 930, s=.48, mood=mood, bulb=None)
     art += official_full("qa", 1185, 930, .51,
-                         look=look, mouth=mouths, tilt=5 if reaction else 0)
+                         look=(-1, .2) if reaction else look, mouth=mouths, tilt=5 if reaction else 0)
     return art + small_table()
 
 
@@ -116,30 +117,41 @@ def approved(t, n):
 
 
 def button(t,n):
-    art = office()
-    art += cast.pm(610,970,s=.67,mood="surprised" if t < .7 else "delighted",
-                   bulb=1.0)
+    art = office()+'<g transform="translate(-400,0)">'
     art += f.washed("M 1070,640 L 1580,640 L 1580,930 L 1070,930 Z", "#888f94", off=(4,3))
     art += f.washed("M 1160,676 L 1490,676 L 1490,805 L 1160,805 Z", "#e8e3d6", off=(2,1))
-    art += f.text(1325,760,"ASSEMBLE",size=51)
+    art += f.text(1190,760,"ASSEMBLE",size=33)
     push=k(t,[(0,0),(.7,0),(.9,1),(1.08,0)])
     art += f.washed(f"M 1200,{833+push*15} Q 1325,{800+push*15} 1450,{833+push*15} "
                     f"L 1450,{870+push*13} Q 1325,{902+push*13} 1200,{870+push*13} Z",
                     "#b44639", off=(4,2))
+    art+='</g>'
+    # Pose the existing PM rig so his free hand actually presses the button.
+    # Local rig coordinates use neck origin and a floor at y=700.
+    reach=k(t,[(0,0),(.5,0),(.9,1),(1.08,1),(1.4,0)])
+    hand=( -110-102*reach, 330+(530+push*22-330)*reach )
+    arms=[(f.SHL,(-170,300),hand,"rest"),
+          (f.SHR,(200,190),(190,110),"cup",True)]
+    face=cast.PM_MOODS["surprised" if t<.7 else "delighted"]
+    art+=f.pm_full(1067,970,.67,arms=arms,
+                   front=cast.rig_bulb(190,58,s=1,b=1.0,rays=7),**face)
     return finish(art,n)
 
 
 def maker(t,n):
     art = landscape()
-    art += f.maker(960,985,.88,face=dict(
+    # Keep the hammer registered to the same rig hand as it lowers.
+    hand_y=k(t,[(0,170),(.9,360),(1.4,370)])
+    arms=[(f.SHL,(-170,230),(-110,330),"rest"),
+          (f.SHR,(230,200),(300,hand_y),"fist",True)]
+    hammer=(f.path(f"M 300,{hand_y-150} L 300,{hand_y+75}",sw=21,stroke="#9c6b46")
+            +f.washed(f"M 215,{hand_y-195} L 385,{hand_y-195} L 385,{hand_y-145} L 215,{hand_y-145} Z",
+                       "#68757a",off=(3,2)))
+    art += f.maker(960,985,.88,arms=arms,front=hammer,face=dict(
         look=(.6,-.1),brows="happy",mouth="flat",head_rot=k(t,[(0,-7),(1,3)])
     ))
-    # A hammer can be holstered without changing the Maker rig.
-    hy=k(t,[(0,570),(.9,760),(1.4,770)])
-    art += f.path(f"M 1275,{hy-150} L 1235,{hy+95}",sw=21,stroke="#9c6b46")
-    art += f.washed(f"M 1190,{hy-205} L 1360,{hy-205} L 1360,{hy-155} L 1190,{hy-155} Z",
-                    "#68757a",off=(3,2))
-    return finish(art,n,(370,260,1180,663.75))
+    # The beanie reaches y≈140; the previous crop began at 260 and cut it off.
+    return finish(art,n,(370,80,1180,663.75))
 
 
 def customer_success(t,n):
@@ -193,15 +205,18 @@ def office_cut(t,n):
 
 
 def question(t,n):
-    art=office()+cramped_team(t)
+    art=office()+cramped_team(t,asking=t>=.20)
     if t>=.20:
-        art+=f.bubble(930,260,1000,180,(870,630),
+        art+=f.bubble(930,260,1000,180,(870,540),
                       words="So... do we have a budget?",size=48)
     return finish(art,n)
 
 
 def reaction(t,n):
     art=office()+cramped_team(t,reaction=t>.28)
+    # Keep the punchline readable across the reaction, rather than only 1.3 seconds.
+    art+=f.bubble(930,260,1000,180,(870,540),
+                  words="So... do we have a budget?",size=48)
     return finish(art,n)
 
 

@@ -1,6 +1,6 @@
 # The Assembly — 20-second innovation-team reveal (storyboard v1)
 
-**Status:** First-pass animation source now implemented (2026-11-12). Not yet rendered or approved.
+**Status:** First-pass animation source now implemented (2026-11-12). Rendered and checked locally on 2026-11-12; not yet creatively approved. See [render review](RENDER_REVIEW.md).
 **Format:** 1920×1080, 16:9, 20 seconds, 12 distinct drawings/s played at 24fps.
 **Visual continuity:** Existing clean ink-and-wash ('wash') look, established rigs, Mount STAEDEAN backdrop. New film; do not alter approved cuts.
 
@@ -56,5 +56,5 @@ No existing approved sequence is changed by this storyboard.
 - Install requirements and Chromium as in the repository README.
 - Render from the repository root: `python scripts/render_film.py assembly`.
 - For a contact sheet first: `python work/the-assembly/build.py --proof`.
-- Expected output: `outputs/The-Assembly-v1.mp4` (not yet produced/verified in this workspace).
+- Expected output: `outputs/The-Assembly-v1.mp4` (rendered and decode-verified on Ken's Mac).
 - If adjusting a shot, clear only that shot's `work/the-assembly/frames/<shot-name>/` and the `work/the-assembly/sequence/` cache before rendering again.

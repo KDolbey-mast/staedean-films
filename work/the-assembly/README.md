@@ -19,7 +19,7 @@ python work/the-assembly/build.py --proof
 python scripts/render_film.py assembly
 ```
 
-The first command creates an 11-row contact sheet at `work/the-assembly/proof.jpg`. The second renders 240 distinct drawings at 12fps, encodes 24fps H.264/AAC with the original synthesized soundtrack, and runs an FFmpeg decode check. **The movie and proof have not been rendered/visually verified yet.** Treat this as a reviewable production draft, not a completed delivery.
+The first command creates an 11-row contact sheet at `work/the-assembly/proof.jpg`. The second renders 240 distinct drawings at 12fps, encodes 24fps H.264/AAC with the original synthesized soundtrack, and runs an FFmpeg decode check. **Rendered and visually inspected on Ken's Mac on 2026-11-12; see [render review](RENDER_REVIEW.md) for checks, fixes and remaining preview limitations.** Treat this as a reviewable production draft, not a completed delivery.
 
 To rerender a corrected shot, delete only its `work/the-assembly/frames/<shot>` folder and `work/the-assembly/sequence` before running the full build; otherwise cached PNGs will remain unchanged. Do not remove original film output or edits.
 
