@@ -214,12 +214,28 @@ def team(t,n,heroic=False):
     art+=cast.pm(1120+drift/3,y,s=.64,pose="stand" if heroic else "walk",
                  phase=t*5,mood="delighted",bulb=1.0)
     art+=official_full("qa",1520+drift,y,.60,look=(-.3,-.1),carry_idea=True)
-    # The villain has sneaked into the heroic shot. His distinctive
-    # black outfit remains intact; the question mark sells the irony.
-    if heroic or t > 1.4:
-        art+=nlib.ninja(1770,957,0,(1850,680))
-        # The impostor copies the team: his bulb base meets the existing hand.
-        art+=f.bulb(1850,680-56*.6,s=.6,b=.7,rays=4)
+    # Deploy the rope first, then lower the existing ninja rig from above frame.
+    # The left hand slides on this fixed rope; the right hand keeps its bulb.
+    rope_x = 1770-110*.67
+    rope_bottom = 815 if heroic else k(t,[(0,-40),(.35,-40),(.75,815)])
+    if rope_bottom > 0:
+        art += f.path(f"M {rope_x},-30 L {rope_x},{rope_bottom}",
+                      sw=7,stroke="#554535")
+        art += f.path(f"M {rope_x-1},-30 L {rope_x-1},{rope_bottom}",
+                      sw=2,stroke="#c4ab7d")
+    ninja_y = 957 if heroic else k(t,[(0,-70),(.8,-70),(2.15,957),
+                                      (2.3,967),(2.5,949),(2.7,957)])
+    if heroic or t >= .8:
+        grip_y = ninja_y-310*.67
+        art += nlib.ninja(1770,ninja_y,0,(1850,ninja_y-277))
+        # A small gloved grip makes the contact with the rope unambiguous.
+        art += f.washed(f"M {rope_x-13},{grip_y-9} Q {rope_x},{grip_y-18} {rope_x+13},{grip_y-8} "
+                         f"L {rope_x+13},{grip_y+12} Q {rope_x},{grip_y+20} {rope_x-13},{grip_y+10} Z",
+                         "#252b35",sw=3,off=(1,1))
+        art += f.path(f"M {rope_x-8},{grip_y} L {rope_x+8},{grip_y} "
+                       f"M {rope_x-8},{grip_y+6} L {rope_x+8},{grip_y+6}",
+                       sw=2,stroke="#68757a")
+        art += f.bulb(1850,ninja_y-277-56*.6,s=.6,b=.7,rays=4)
         if heroic and t > .8:
             art+=f.text(1750,300,"?",size=90,fill="#343944")
     # Suspiciously elaborate theatrical wind lines; no imported Marvel motifs.

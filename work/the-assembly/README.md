@@ -36,3 +36,7 @@ The approval stamp now runs 0–1 seconds, followed by a 1–4-second PM phone c
 ## Assembly bulbs and readable props (v4)
 
 All five figures hold an illuminated bulb during the assembly: PM, Maker, Customer Success, QA, and the ninja impostor. `team()` uses the existing bulb and carrying-arm helpers; `official_full(carry_idea=True)` enables the established official carrying pose without editing shared rigs. The PM’s phone has a rounded smartphone silhouette, call screen, speaker and hang-up control. The Maker’s hammer has a steel striking face, split claw and wooden handle. Both props remain in their character’s local coordinate system to preserve contact through movement. Timing, sound and the globe outro are unchanged.
+
+## Ninja rope entrance (v5)
+
+During the 9–12-second approach, a rope drops from the top edge before the ninja descends into view. His left glove follows the fixed rope, his right hand keeps the bulb, and he settles with a small landing bounce before the tableau. The rope remains in the heroic shot, avoiding an unexplained disappearance. `team()` contains the rope deployment and vertical entrance keyframes; the original ninja rig is reused unchanged. Timing, soundtrack and all other shots remain unchanged.

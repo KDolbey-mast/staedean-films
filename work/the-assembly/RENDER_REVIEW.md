@@ -8,16 +8,22 @@ Status: rendered first preview, awaiting Ken's creative review. Not an approved 
 - The-Assembly-v1.mp4: 1920 × 1080, 16:9, exactly 20.00 seconds.
 - 240 source drawings at 12 fps, encoded as 480 frames at 24 fps.
 - H.264, yuv420p, AAC mono at 44.1 kHz, fast-start MP4.
-- Size: 3,883,626 bytes.
-- SHA-256: `19e06f0cf117273ba1bed50de4313e21f2235e23b817ce2b6a11fa2b0288c267`.
+- Size: 3,976,254 bytes.
+- SHA-256: `2255157092d4bbc16bbfb13da66e8194dd0f5ba88d72b82ffa334505ba0981c6`.
 
-## Current bulbs and props revision (v4)
+## Current ninja rope entrance (v5)
+
+Ken requested the ninja to pop in from above on a rope. In the 9–12-second approach, the rope deploys first, then the existing ninja descends from completely above the frame, arriving around 11.15 seconds and settling after a small bounce. His free left glove stays on the rope while the right hand holds the bulb. The rope remains hanging during the tableau; the question mark still identifies him as the suspicious impostor.
+
+The current download is **The-Assembly-v5.mp4**. Both assembly shots were rerendered. Inspected deployment/descent and landing/tableau frames, including a mid-descent still at 10.5 seconds. The complete export decoded successfully at 480 frames, 1920 × 1080, 24 fps, exactly 20.00 seconds, with AAC audio. Soundtrack, phone call, hammer, other four bulbs, budget gag and globe outro are unchanged. The entrance keyframes and rope/hand contact are contained in `team()` in the Assembly director; shared ninja code and older films remain unchanged.
+
+## Bulbs and props revision (v4)
 
 Ken requested a bulb for everyone assembling, and clearer cellphone and hammer designs. All five lineup figures now hold a lit bulb: Maker, Customer Success, PM, QA and ninja. Bulbs remain attached to the carrying hands in approach and tableau shots, with restrained additional glow so faces remain readable. The ninja copies the ensemble as part of the approved impostor gag.
 
 The phone is now a wider rounded smartphone with a lit call screen, contact icon, red hang-up button, earpiece and home button. The hammer now has a flat striking face, split claw, metal head and wooden handle. Both props use local character coordinates to retain hand contact. Changes are confined to the Assembly director and documentation; shared rigs and older films are untouched.
 
-The current download is **The-Assembly-v4.mp4**. Inspected proof frames for the phone, hammer, approach and heroic tableau. Rerendered the four changed shots and decoded the complete movie successfully: 480 frames, 1920 × 1080, 24 fps, 20.00 seconds, H.264/AAC. Sound, gobbledygook, shot timing, budget ending and globe outro remain unchanged. For future edits, `team()` controls the five bulbs, `phone_call()` draws the smartphone, and `maker()` draws the claw hammer. `official_full(carry_idea=True)` selects the established carrying pose only for this film.
+The v4 download was **The-Assembly-v4.mp4**. Inspected proof frames for the phone, hammer, approach and heroic tableau. Rerendered the four changed shots and decoded the complete movie successfully: 480 frames, 1920 × 1080, 24 fps, 20.00 seconds, H.264/AAC. Sound, gobbledygook, shot timing, budget ending and globe outro remain unchanged. For future edits, `team()` controls the five bulbs, `phone_call()` draws the smartphone, and `maker()` draws the claw hammer. `official_full(carry_idea=True)` selects the established carrying pose only for this film.
 
 ## Phone-call revision (v3)
 

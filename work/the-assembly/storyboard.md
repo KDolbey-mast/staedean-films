@@ -19,7 +19,7 @@ A huge APPROVED stamp lands. The PM phones a colleague: “I’m putting togethe
 | 4.0–5.5 | Maker lowers a hammer as if holstering a legendary weapon; determined stare. | One absurdly heroic percussion hit |
 | 5.5–7.0 | Customer Success flips headset mic down like fighter-pilot visor. | Radio chirp, heroic sting |
 | 7.0–9.0 | QA adjusts glasses, glare flashes across lenses. | Tiny metallic 'shing' |
-| 9.0–12.0 | Silhouettes approach through theatrical *smoke* (not dense wash filter), Mount STAEDEAN in distance; PM and Maker join the others. | Ridiculously epic original orchestral swell |
+| 9.0–12.0 | Silhouettes approach through theatrical *smoke* (not dense wash filter), Mount STAEDEAN in distance; PM and Maker join the others. A rope drops from above and the ninja descends into the lineup, holding his bulb. | Ridiculously epic original orchestral swell |
 | 12.0–15.0 | Freeze-like heroic tableau: PM front; all five figures hold glowing idea bulbs and strike earnest poses, holding a beat too long. | Music reaches ridiculous peak |
 | 15.0–16.0 | Smash cut to painfully ordinary, too-small office table, all three teammates plus PM squeezed into frame. | Music cuts dead; chair squeak |
 | 16.0–17.5 | Hand goes up. Caption/speech balloon: 'So... do we have a budget?' | One mundane voice, optional; readable silently |
@@ -31,7 +31,7 @@ A huge APPROVED stamp lands. The PM phones a colleague: “I’m putting togethe
 - **Maker:** Equal teammate, rust beanie/mustard shirt, hammer prop; don't imply he works for PM.
 - **Customer Success:** Existing ginger bob/teal top/headset; believable recruitment gesture.
 - **QA:** Existing dark bun/glasses/pink top; well-intentioned team member, not an obstacle.
-- **Ninja cameo (Ken-approved exception):** The existing ninja sneaks into the heroic team lineup, looking conspicuously out of place; this is a one-film joke and does not redefine his long-term antagonist role.
+- **Ninja cameo (Ken-approved exception):** The existing ninja drops in from the top of the screen on a rope, bulb in hand, and joins the heroic team lineup, looking conspicuously out of place; this is a one-film joke and does not redefine his long-term antagonist role.
 - **No sheep:** No setting-driven reason for it in this gag.
 - **No invented job titles or claims about the actual innovation staffing.** This is a theatrical ensemble using established cast, not an official org chart.
 
