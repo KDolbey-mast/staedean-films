@@ -12,6 +12,7 @@ FILMS = {
     'bridge': [('work/bridge-test/build-mountain.py',)],
     'priority': [('work/the-priority-reaction/build.py', '--render')],
     'handoff': [('work/the-handoff/build.py', '--render')],
+    'assembly': [('work/the-assembly/build.py', '--render')],
     'door': [('work/full-door/build-details.py',)],
     # Later stages reuse frames produced by the preceding stages.
     'mount': [('work/full-mount/build.py', '--render'),
