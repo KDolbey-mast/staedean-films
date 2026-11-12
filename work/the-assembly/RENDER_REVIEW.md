@@ -8,8 +8,12 @@ Status: rendered first preview, awaiting Ken's creative review. Not an approved 
 - The-Assembly-v1.mp4: 1920 × 1080, 16:9, exactly 20.00 seconds.
 - 240 source drawings at 12 fps, encoded as 480 frames at 24 fps.
 - H.264, yuv420p, AAC mono at 44.1 kHz, fast-start MP4.
-- Size: 3,649,965 bytes.
-- SHA-256: `b875b9c68ef217232843901b021ec81f2d8bbb4528c235623ca907cbdc2eeb87`.
+- Size: 3,709,766 bytes.
+- SHA-256: `88ad5d941f36631dd86b73457af8b5104f05ff6287d9955e13e4c5b50f026552`.
+
+## Globe outro correction
+
+Ken requested the familiar globe outro. The final second now reuses `film2.py`’s `E3_logo` drawing directly: nine illuminated globes above the traced teal STAEDEAN logo, with INNOVATION · ASSEMBLING NOW. below. No shot durations or audio changed. The revised user download is The-Assembly-v2.mp4; the repository render command still writes its established The-Assembly-v1.mp4 filename. The final outro frame was visually inspected and the revised MP4 fully decode-checked at 20.00 seconds / 480 frames.
 
 ## What changed and why
 

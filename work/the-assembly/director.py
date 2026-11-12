@@ -220,11 +220,15 @@ def reaction(t,n):
     return finish(art,n)
 
 
+# Reuse the established Door outro directly: traced teal logo and nine globes.
+# Keeping this reference avoids a second, subtly different brand drawing.
+BRAND_OUTRO = next(shot["draw"] for shot in f.SHOTS if shot["name"] == "E3_logo")
+
+
 def card(t,n):
-    art=f.washed("M 0,0 L 1920,0 L 1920,1080 L 0,1080 Z","#fbf8f1",off=(2,1))
-    art+=f.text(960,505,"STAEDEAN INNOVATION",size=83)
-    art+=f.text(960,605,"ASSEMBLING NOW.",size=75,fill="#008c94")
-    return finish(art,n)
+    svg = BRAND_OUTRO(t,n)
+    caption = f.text(960,760,"INNOVATION · ASSEMBLING NOW.",size=48,fill="#008c94")
+    return svg.replace("</svg>",caption+"</svg>")
 
 
 SHOTS=[

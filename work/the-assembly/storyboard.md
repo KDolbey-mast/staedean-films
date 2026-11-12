@@ -24,7 +24,7 @@ A huge APPROVED stamp lands. The PM presses an ASSEMBLE button. Maker, Customer 
 | 15.0–16.0 | Smash cut to painfully ordinary, too-small office table, all three teammates plus PM squeezed into frame. | Music cuts dead; chair squeak |
 | 16.0–17.5 | Hand goes up. Caption/speech balloon: 'So... do we have a budget?' | One mundane voice, optional; readable silently |
 | 17.5–19.0 | Everyone very slowly turns to look at PM. PM's expression collapses. | Clock tick, awkward silence |
-| 19.0–20.0 | Black or clean title card: 'STAEDEAN INNOVATION' / 'ASSEMBLING NOW.' | Tiny button click, no superhero soundtrack imitation |
+| 19.0–20.0 | Established teal STAEDEAN logo with nine glowing globes; 'INNOVATION · ASSEMBLING NOW.' | Tiny button click, no superhero soundtrack imitation |
 
 ## Casting and canon
 - **PM:** Heroic-but-fallible lead; still blue shirt/orange tie; holds the idea. No summit beard.

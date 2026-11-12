@@ -27,4 +27,4 @@ To rerender a corrected shot, delete only its `work/the-assembly/frames/<shot>` 
 
 The approved decision should feel genuinely exciting. The dramatic music and hero poses are knowingly ridiculous. The team are nice people; the budget joke is about the practical gap between approval and mobilisation, not about incompetence. No Marvel audio, costumes or visual trademarks are reproduced.
 
-The current end line is **"So... do we have a budget?"**, followed by **STAEDEAN INNOVATION / ASSEMBLING NOW.** Both are editable on review. Do not change canonical character profiles or declare this cut approved without Ken's review.
+The current end line is **"So... do we have a budget?"**, followed by the established **STAEDEAN logo and nine glowing globes**, with **INNOVATION · ASSEMBLING NOW.** below. Both are editable on review. Do not change canonical character profiles or declare this cut approved without Ken's review.
