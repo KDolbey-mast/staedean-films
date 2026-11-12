@@ -1,6 +1,6 @@
 # The Assembly — 20-second innovation-team reveal (storyboard v1)
 
-**Status:** Proposed creative treatment for Ken's feedback; not an approved film or a rendered preview.
+**Status:** First-pass animation source now implemented (2026-11-12). Not yet rendered or approved.
 **Format:** 1920×1080, 16:9, 20 seconds, 12 distinct drawings/s played at 24fps.
 **Visual continuity:** Existing clean ink-and-wash ('wash') look, established rigs, Mount STAEDEAN backdrop. New film; do not alter approved cuts.
 
@@ -31,7 +31,7 @@ A huge APPROVED stamp lands. The PM presses an ASSEMBLE button. Maker, Customer 
 - **Maker:** Equal teammate, rust beanie/mustard shirt, hammer prop; don't imply he works for PM.
 - **Customer Success:** Existing ginger bob/teal top/headset; believable recruitment gesture.
 - **QA:** Existing dark bun/glasses/pink top; well-intentioned team member, not an obstacle.
-- **No ninja:** Canonical antagonist would confuse the team assembly.
+- **Ninja cameo (Ken-approved exception):** The existing ninja sneaks into the heroic team lineup, looking conspicuously out of place; this is a one-film joke and does not redefine his long-term antagonist role.
 - **No sheep:** No setting-driven reason for it in this gag.
 - **No invented job titles or claims about the actual innovation staffing.** This is a theatrical ensemble using established cast, not an official org chart.
 
@@ -48,3 +48,13 @@ A huge APPROVED stamp lands. The PM presses an ASSEMBLE button. Maker, Customer 
 - Should the final card read 'ASSEMBLING NOW.' or just 'WE'RE PUTTING TOGETHER A TEAM.'?
 
 No existing approved sequence is changed by this storyboard.
+
+## First-pass source and render
+
+- `work/the-assembly/director.py` contains the 20-second timeline and established rigs, including the one-film ninja impostor.
+- `work/the-assembly/build.py` renders the 12-fps drawings via Playwright Chromium, synthesizes original audio, then produces a 24-fps H.264/AAC MP4.
+- Install requirements and Chromium as in the repository README.
+- Render from the repository root: `python scripts/render_film.py assembly`.
+- For a contact sheet first: `python work/the-assembly/build.py --proof`.
+- Expected output: `outputs/The-Assembly-v1.mp4` (not yet produced/verified in this workspace).
+- If adjusting a shot, clear only that shot's `work/the-assembly/frames/<shot-name>/` and the `work/the-assembly/sequence/` cache before rendering again.
